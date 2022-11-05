@@ -1,0 +1,19 @@
+{
+  "name": "suspend-us",
+  "version": "1.0.0",
+  "description": "Integration maquette suspend us",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chaplin16/suspend-us.git"
+  },
+  "author": "Aurore RAMOS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chaplin16/suspend-us/issues"
+  },
+  "homepage": "https://github.com/Chaplin16/suspend-us#readme"
+}
