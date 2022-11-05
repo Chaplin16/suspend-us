@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/layout/_nav.scss","../scss/utils/_variables.scss"],"names":[],"mappings":"AAGI;EACI;EACA;;AAEJ;EACI;EACA;EACA,OCTD;;ADUC;EACI;;AAGR;EACI;EACA;;AACA;EACI;EACA","file":"style.css"}

@@ -1,3 +1,22 @@
-
+.nav_logo img {
+  max-width: 250px;
+  height: auto;
+}
+.nav_menu {
+  list-style: none;
+  line-height: 1.3rem;
+  color: #005a81;
+}
+.nav_menu span {
+  display: none;
+}
+.nav_hamburger {
+  width: 100%;
+  text-align: center;
+}
+.nav_hamburger button {
+  border: none;
+  background-color: #fff;
+}
 
 /*# sourceMappingURL=style.css.map */
