@@ -1,5 +1,13 @@
 @import "components/buttons";
 @import "layout/footer";
 @import "layout/nav";
-@import "utils/mixins";
-@import "utils/variables"
+@import "utils/keyframes";
+@import "utils/variables";
+
+*,
+::after,
+::before{
+    margin:0;
+    padding:0;
+    text-decoration: none; 
+}

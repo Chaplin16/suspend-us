@@ -1,0 +1,9 @@
+//navbar'menu display
+@keyframes appearNavbar {
+    0% {
+      transform: translateY(-450px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+}
