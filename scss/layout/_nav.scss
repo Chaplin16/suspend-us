@@ -96,3 +96,25 @@
     }
 }
 
+@media screen and (min-width: 1000px){
+    nav{
+        .nav_logo img{
+            max-width: 300px;
+        }
+        .nav_menu {
+            font-size: 17px;
+
+        }
+    }
+}
+
+@media screen and (min-width: 1200px){
+    nav{
+        .nav_menu{
+            font-size: 20px;
+            &--item:nth-of-type(7){
+                padding-right:3rem;
+            }
+        }
+    }
+}
