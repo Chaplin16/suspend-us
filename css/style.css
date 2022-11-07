@@ -179,7 +179,8 @@
 .block_presentation--gift {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  column-gap: 1rem;
 }
 .block_presentation--gift-img {
   width: 150px;
@@ -189,6 +190,7 @@
 }
 .block_presentation--gift-text h2 {
   font-size: 14px;
+  color: #005a81;
 }
 .block_presentation--gift-text h2 img {
   width: 10px;
@@ -200,13 +202,36 @@
   width: 10rem;
   padding: 10px 0;
 }
-
 .block_presentation--working {
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 2rem;
 }
 .block_presentation--working-img {
-  width: 140px;
+  width: 125px;
   object-fit: contain;
+}
+.block_presentation--working-text h2 {
+  font-size: 14px;
+  color: #005a81;
+}
+.block_presentation--working-text ul {
+  list-style: none;
+  font-size: 10px;
+  width: 10rem;
+}
+.block_presentation--working-text ul span {
+  color: #005a81;
+}
+.block_presentation--working-text ul li {
+  padding: 3px 0;
+}
+.block_presentation--working-text ul li:nth-of-type(3) {
+  font-weight: 600;
+}
+.block_presentation--working-text ul li:nth-of-type(3) img {
+  width: 11px;
 }
 
 @keyframes appearNavbar {

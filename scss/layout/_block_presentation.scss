@@ -3,7 +3,8 @@
     &--gift{
         display:flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: center;
+        column-gap: 1rem;
         &-img{
             width: 150px;
         }
@@ -11,6 +12,7 @@
             margin-top:2.5rem;
             h2{
                 font-size:14px;
+                color: $blue;
                 & img{
                     width:10px;
                     padding-bottom:6px;
@@ -24,14 +26,39 @@
             }
         }
     }
-}
-
-
-.block_presentation--working{
-    display: flex;
-    &-img{
-        width: 140px;
-        object-fit: contain;
+    &--working{
+        display: flex;
+        justify-content: flex-end;
+        align-items:center;
+        padding-top:2rem;
+        &-img{
+            width: 125px;
+            object-fit: contain;
+        }
+        &-text{
+            h2{
+                font-size:14px;
+                color: $blue;
+            }
+            ul{
+                list-style: none;
+                font-size:10px;
+                width: 10rem;
+                
+                span{
+                    color: $blue;
+                }
+                & li{
+                    padding: 3px 0;
+                    &:nth-of-type(3){
+                        font-weight: 600;
+                        img{
+                            width: 11px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
