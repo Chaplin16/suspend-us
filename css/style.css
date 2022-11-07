@@ -22,6 +22,15 @@
   background-color: #005a81;
 }
 
+.block_presentation--gift-text button {
+  background-color: #01b261;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 8px;
+}
+
 @media screen and (min-width: 500px) {
   .selectChoice {
     position: absolute;
@@ -167,12 +176,37 @@
     padding-right: 2.2rem;
   }
 }
+.block_presentation--gift {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 .block_presentation--gift-img {
   width: 150px;
 }
+.block_presentation--gift-text {
+  margin-top: 2.5rem;
+}
+.block_presentation--gift-text h2 {
+  font-size: 14px;
+}
+.block_presentation--gift-text h2 img {
+  width: 10px;
+  padding-bottom: 6px;
+  margin-right: -4px;
+}
+.block_presentation--gift-text p {
+  font-size: 10px;
+  width: 10rem;
+  padding: 10px 0;
+}
 
+.block_presentation--working {
+  display: flex;
+}
 .block_presentation--working-img {
-  width: 150px;
+  width: 140px;
+  object-fit: contain;
 }
 
 @keyframes appearNavbar {

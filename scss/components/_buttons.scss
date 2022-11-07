@@ -26,6 +26,17 @@
     }
 }
 
+//button html line 75 at 76
+.block_presentation--gift-text button{
+    background-color: $green;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 8px;
+
+}
+
 @media screen and (min-width: 500px){
     .selectChoice{
         position: absolute; 
