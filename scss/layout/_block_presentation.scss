@@ -1,5 +1,10 @@
 //section block_presentation html line 59 at line 95
 .block_presentation{
+    background-color: $grey;
+    border-radius: 50%;
+    margin-left:1rem;
+    padding-bottom: 4rem;
+    
     &--gift{
         display:flex;
         align-items: center;
@@ -20,8 +25,8 @@
                 }
             }
             p{
-                font-size:10px;
-                width: 10rem;
+                font-size: 9px;
+                width: 9rem;
                 padding: 10px 0;
             }
         }
@@ -30,10 +35,11 @@
         display: flex;
         justify-content: flex-end;
         align-items:center;
-        padding-top:2rem;
+        column-gap: 5px;
         &-img{
-            width: 125px;
+            width: 120px;
             object-fit: contain;
+            padding-right:1rem;
         }
         &-text{
             h2{
@@ -42,14 +48,13 @@
             }
             ul{
                 list-style: none;
-                font-size:10px;
-                width: 10rem;
-                
+                font-size:9px;
+                width: 9rem;
                 span{
                     color: $blue;
                 }
                 & li{
-                    padding: 3px 0;
+                    padding: 2px 0;
                     &:nth-of-type(3){
                         font-weight: 600;
                         img{

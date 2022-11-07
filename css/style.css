@@ -16,14 +16,14 @@
   cursor: pointer;
 }
 .selectChoice_offer {
-  background-color: #01b261;
+  background-color: #01b562;
 }
 .selectChoice_receive {
   background-color: #005a81;
 }
 
 .block_presentation--gift-text button {
-  background-color: #01b261;
+  background-color: #01b562;
   border: none;
   padding: 8px 15px;
   border-radius: 50px;
@@ -120,7 +120,7 @@
   transform: translateY(-10px);
 }
 .nav_hamburger--line.l2 {
-  background-color: #01b261;
+  background-color: #01b562;
 }
 .nav_hamburger--line.l3 {
   transform: translateY(10px);
@@ -176,6 +176,12 @@
     padding-right: 2.2rem;
   }
 }
+.block_presentation {
+  background-color: #f3f3f3;
+  border-radius: 50%;
+  margin-left: 1rem;
+  padding-bottom: 4rem;
+}
 .block_presentation--gift {
   display: flex;
   align-items: center;
@@ -198,19 +204,20 @@
   margin-right: -4px;
 }
 .block_presentation--gift-text p {
-  font-size: 10px;
-  width: 10rem;
+  font-size: 9px;
+  width: 9rem;
   padding: 10px 0;
 }
 .block_presentation--working {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-top: 2rem;
+  column-gap: 5px;
 }
 .block_presentation--working-img {
-  width: 125px;
+  width: 120px;
   object-fit: contain;
+  padding-right: 1rem;
 }
 .block_presentation--working-text h2 {
   font-size: 14px;
@@ -218,14 +225,14 @@
 }
 .block_presentation--working-text ul {
   list-style: none;
-  font-size: 10px;
-  width: 10rem;
+  font-size: 9px;
+  width: 9rem;
 }
 .block_presentation--working-text ul span {
   color: #005a81;
 }
 .block_presentation--working-text ul li {
-  padding: 3px 0;
+  padding: 2px 0;
 }
 .block_presentation--working-text ul li:nth-of-type(3) {
   font-weight: 600;
