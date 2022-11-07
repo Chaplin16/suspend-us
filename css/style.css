@@ -252,6 +252,57 @@
   overflow: hidden;
 }
 
+@media screen and (min-width: 430px) {
+  .block_presentation--gift {
+    margin-top: -1rem;
+  }
+  .block_presentation--gift p {
+    font-size: 11px;
+  }
+  .block_presentation--working {
+    padding-top: 3rem;
+    column-gap: 1rem;
+    max-width: 95%;
+  }
+  .block_presentation--working ul {
+    font-size: 11px;
+    width: 10rem;
+  }
+  .block_presentation--working-img {
+    width: 130px;
+  }
+  .block_presentation--background {
+    height: 27rem;
+  }
+}
+@media screen and (min-width: 500px) {
+  .block_presentation {
+    margin-top: 3rem;
+  }
+  .block_presentation--gift h2 {
+    font-size: 16px;
+  }
+  .block_presentation--gift img {
+    width: 200px;
+  }
+  .block_presentation--gift p {
+    font-size: 12px;
+  }
+  .block_presentation--working h2 {
+    font-size: 16px;
+  }
+  .block_presentation--working img {
+    width: 160px;
+  }
+  .block_presentation--working ul {
+    font-size: 12px;
+  }
+  .block_presentation--background {
+    left: 2rem;
+    height: 30rem;
+    width: 93%;
+  }
+}
 @keyframes appearNavbar {
   0% {
     transform: translateY(-250px);
