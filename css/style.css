@@ -1,3 +1,55 @@
+.selectChoice {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  row-gap: 5px;
+}
+.selectChoice_offer, .selectChoice_receive {
+  border: none;
+  width: 68px;
+  color: #fff;
+  text-align: left !important;
+  padding: 7px 0 7px 15px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  font-size: 11px;
+  cursor: pointer;
+}
+.selectChoice_offer {
+  background-color: #01b261;
+}
+.selectChoice_receive {
+  background-color: #005a81;
+}
+
+@media screen and (min-width: 500px) {
+  .selectChoice {
+    position: absolute;
+    right: 0;
+    top: 5rem;
+  }
+}
+@media screen and (min-width: 850px) {
+  .selectChoice {
+    top: 7rem;
+  }
+  .selectChoice_offer, .selectChoice_receive {
+    width: 90px !important;
+    padding-left: 25px;
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .selectChoice {
+    top: 8.5rem;
+    row-gap: 7px;
+  }
+  .selectChoice_offer, .selectChoice_receive {
+    width: 120px !important;
+    padding: 12px 0 12px 35px;
+    font-size: 17px;
+  }
+}
 @keyframes appearNavbar {
   0% {
     transform: translateY(-250px);
@@ -5,6 +57,9 @@
   100% {
     transform: translateY(0px);
   }
+}
+.nav {
+  max-width: 100%;
 }
 .nav_logo img {
   max-width: 200px;
@@ -93,7 +148,7 @@
     padding-left: 0 !important;
   }
   nav .nav_menu--item:nth-of-type(7) {
-    padding-right: 1rem;
+    padding-right: 1.5rem;
   }
 }
 @media screen and (min-width: 1000px) {
@@ -109,9 +164,17 @@
     font-size: 20px;
   }
   nav .nav_menu--item:nth-of-type(7) {
-    padding-right: 3rem;
+    padding-right: 2.2rem;
   }
 }
+.block_presentation--gift-img {
+  width: 150px;
+}
+
+.block_presentation--working-img {
+  width: 150px;
+}
+
 @keyframes appearNavbar {
   0% {
     transform: translateY(-250px);
