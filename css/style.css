@@ -47,6 +47,10 @@
     padding-left: 25px;
     font-size: 12px;
   }
+
+  .block_presentation--united-gift-text button {
+    font-size: 0.8rem;
+  }
 }
 @media screen and (min-width: 1200px) {
   .selectChoice {
@@ -57,6 +61,17 @@
     width: 120px !important;
     padding: 12px 0 12px 35px;
     font-size: 17px;
+  }
+
+  .block_presentation--united-gift-text button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .block_presentation--united-gift-text button {
+    padding: 10px 30px;
+    font-size: 1rem;
   }
 }
 @keyframes appearNavbar {
@@ -218,6 +233,7 @@
   font-size: 0.7rem;
   width: 9rem;
   padding: 10px 0;
+  color: rgb(94, 93, 93);
 }
 .block_presentation--united-working {
   display: flex;
@@ -242,9 +258,11 @@
   list-style: none;
   font-size: 0.7rem;
   width: 9rem;
+  color: rgb(94, 93, 93);
 }
 .block_presentation--united-working-text ul span {
   color: #005a81;
+  font-weight: 600;
 }
 .block_presentation--united-working-text ul li {
   padding: 2px 0;
@@ -304,7 +322,7 @@
 @media screen and (min-width: 600px) {
   .block_presentation--united-gift p, .block_presentation--united-working ul {
     font-size: 1rem;
-    width: 15rem;
+    width: 17rem;
   }
 }
 @media screen and (min-width: 750px) {
@@ -312,7 +330,8 @@
     left: 1.5rem;
   }
   .block_presentation--united-gift {
-    margin-top: -3rem;
+    justify-content: flex-start;
+    padding-left: 5rem;
   }
   .block_presentation--united-gift h2 {
     font-size: 2rem;
@@ -322,12 +341,76 @@
     margin: 0 -8px;
     padding-bottom: 10px;
   }
+  .block_presentation--united-gift p {
+    font-size: 1.2rem;
+    width: 70%;
+  }
+  .block_presentation--united-working {
+    column-gap: 3rem;
+  }
   .block_presentation--united-working ul {
     font-size: 1.2rem;
-    width: 18rem;
+    width: 19rem;
   }
   .block_presentation--united-working h2 {
     font-size: 2rem;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .block_presentation--united-gift {
+    padding-left: 7rem;
+    margin-top: -2.5rem;
+    column-gap: 8%;
+  }
+  .block_presentation--united-gift h2 {
+    font-size: 3rem;
+  }
+  .block_presentation--united-gift h2 img {
+    width: 25px;
+    margin: 0 -12px;
+    padding-bottom: 18px;
+  }
+  .block_presentation--united-gift p {
+    max-width: 30rem;
+    padding: 20px 0;
+    font-size: 1.4rem;
+    width: 25rem;
+  }
+  .block_presentation--united-working {
+    padding-right: 5rem;
+  }
+  .block_presentation--united-working h2 {
+    font-size: 2.5rem;
+  }
+  .block_presentation--united-working ul li {
+    padding: 8px 0;
+    font-size: 1.4rem;
+    width: 25rem;
+  }
+  .block_presentation--united-working ul li:nth-child(3) img {
+    width: 23px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .block_presentation--united-gift p {
+    font-size: 1.7rem;
+    width: 40rem;
+  }
+  .block_presentation--united-gift h2 {
+    font-size: 3.5rem;
+  }
+  .block_presentation--united-gift h2 img {
+    width: 35px;
+  }
+  .block_presentation--united-working {
+    column-gap: 12rem;
+  }
+  .block_presentation--united-working ul li {
+    font-size: 1.7rem;
+    width: 30rem;
+  }
+  .block_presentation--united-working h2 {
+    font-size: 2.5rem;
   }
 }
 @keyframes appearNavbar {
