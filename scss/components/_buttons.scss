@@ -147,6 +147,27 @@
         padding: 10px 20px;
         font-size: 0.9rem;
     }
+    .block_position--search-button{
+        & input {
+            width: 250px;
+        }
+        button {
+            padding: 0.7rem 1.5rem;
+            font-size: 1rem;
+            right: 0!important;
+        }
+        & input {
+            padding: 11px 45px;
+            margin-top: 1rem; 
+            font-size: 1rem;  
+        }
+        img{
+            top: 23px;
+            left:8px;
+            width: 30px;
+        }
+    }
+
 
 }
 

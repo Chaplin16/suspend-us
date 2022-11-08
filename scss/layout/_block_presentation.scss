@@ -103,7 +103,7 @@
     border-top-right-radius: 50%;
     border-top-left-radius: 40%;
     border-bottom-right-radius: 50%;
-    border-bottom-left-radius: 0%;
+    border-bottom-left-radius: 50%;
     outline: 1px dashed rgba(0, 90, 129,0.4);
     outline-offset: 0px;  
     z-index:-1;
@@ -230,7 +230,7 @@
 @media screen and (min-width: 850px){
     .cercle{
         top:13rem;
-        height:85vh;
+        height:80vh;
         width:90%;
     }
 }
@@ -281,7 +281,7 @@
     }
     .cercle{
         height:105vh;
-        border-bottom-left-radius: 50%;
+
     }
 }
 
