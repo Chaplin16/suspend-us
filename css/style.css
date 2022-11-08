@@ -271,6 +271,21 @@
   width: 11px;
 }
 
+.cercle {
+  position: absolute;
+  background-color: transparent;
+  top: 12rem;
+  left: -2rem;
+  width: 85%;
+  height: 50%;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 40%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 0%;
+  outline: 1px dashed #01b562;
+  outline-offset: 0px;
+}
+
 @media screen and (min-width: 400px) {
   .block_presentation--united {
     row-gap: 2rem;
@@ -290,6 +305,10 @@
   }
   .block_presentation--united-working-img {
     width: 120px;
+  }
+
+  .cercle {
+    height: 100vw;
   }
 }
 @media screen and (min-width: 500px) {
@@ -429,21 +448,6 @@
 body {
   max-width: 1500px !important;
   margin: auto;
-}
-
-.cercle {
-  position: absolute;
-  background-color: transparent;
-  top: 12rem;
-  left: -2rem;
-  width: 85%;
-  height: 60%;
-  border-top-right-radius: 50%;
-  border-top-left-radius: 40%;
-  border-bottom-right-radius: 50%;
-  border-bottom-left-radius: 40%;
-  outline: 1px dashed #01b562;
-  outline-offset: 0px;
 }
 
 /*# sourceMappingURL=style.css.map */

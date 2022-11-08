@@ -1,4 +1,6 @@
-//section block_presentation html line 59 at line 95
+//section block_presentation HTML line 59 at line 95
+//cercle in the HTML line 111
+
 .block_presentation{
     position: relative;
     &--background{
@@ -89,6 +91,21 @@
      
 }
 
+.cercle{
+    position: absolute;
+    background-color: transparent;
+    top:12rem;
+    left:-2rem;
+    width:85%;
+    height:50%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 0%;
+    outline: 1px dashed $green;
+    outline-offset: 0px;  
+}
+
 
 @media screen and (min-width: 400px){
     .block_presentation--united{
@@ -109,6 +126,9 @@
                 width:120px;
             }
         }
+    }
+    .cercle{
+        height:100vw;
     }
 }
 

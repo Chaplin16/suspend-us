@@ -17,18 +17,3 @@ body{
     margin:auto;
 }
 
-.cercle{
-    position: absolute;
-    background-color: transparent;
-    top:12rem;
-    left:-2rem;
-    width:85%;
-    height:60%;
-    border-top-right-radius: 50%;
-    border-top-left-radius: 40%;
-    border-bottom-right-radius: 50%;
-    border-bottom-left-radius: 40%;
-    outline: 1px dashed $green;
-    outline-offset: 0px;
-    
-}
