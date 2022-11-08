@@ -3,12 +3,47 @@
 .block_position {
     display: flex;
     align-items: center;
+    column-gap: 0.5rem;
     &--card iframe{
-        width:200px;
-        height:200px;
+        width:150px;
+        height:150px;
         z-index:10;
         border-radius: 50%;
                 outline: 1px dashed rgba(0, 90, 129,0.4);
                 outline-offset: 5px;
+    }
+    &--search{
+        h3{
+            color: $blue;
+            font-size: 0.9rem;
+        }
+        p{
+            font-size:0.7rem;
+            color: $text-grey;
+            padding: 10px 0;
+        }
+        .block_position--search-button{
+            position: relative;
+            input{
+                border:1px solid $green;
+                border-top-left-radius: 50px;
+                border-bottom-left-radius: 50px;
+                padding: 1px  5px;
+
+            }
+            button{
+                position: absolute;
+                bottom: 0;
+                right:0;
+                border-top-left-radius: 50px;
+                border-bottom-left-radius: 50px;
+                border-top-right-radius: 50px;
+                border-bottom-right-radius: 50px;
+                padding: 0 5px;
+                background-color: $blue;
+                border-color: $green;
+                color: #fff;
+            }
+        }
     }
 }
