@@ -94,9 +94,9 @@
 .cercle{
     position: absolute;
     background-color: transparent;
-    top:12rem;
-    left:-2rem;
-    width:85%;
+    top:13rem;
+    left:-3rem;
+    width:90%;
     height:50%;
     border-top-right-radius: 50%;
     border-top-left-radius: 40%;
@@ -159,6 +159,9 @@
             }
         }
     }
+    .cercle{
+        width:80%;
+    }
 }
 
 @media screen and (min-width: 600px){
@@ -168,6 +171,10 @@
             font-size: 1rem;
             width:17rem;
         }
+    }
+    .cercle{
+        border-top-left-radius: 30%;
+        top:15rem;
     }
 }
 
