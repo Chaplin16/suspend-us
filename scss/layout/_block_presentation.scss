@@ -4,13 +4,13 @@
 .block_presentation{
     position: relative;
     &--background{
-        width:96%;
+        width:95%;
         z-index:-10;
         position: absolute;
         top:0rem;
         left:1rem;
         outline: 1px dashed rgba(1, 181, 98, 0.4);;
-        outline-offset: 12px;
+        outline-offset: 8px;
         border-radius: 50%;
     }
     &--united{
@@ -31,7 +31,7 @@
             &-text{
                 margin-top:2.5rem;
                 h2{
-                    font-size:14px;
+                    font-size: 1rem;
                     color: $blue;
                     & img{
                         width:10px;
@@ -50,6 +50,8 @@
         &-working{
             display: flex;
             justify-content: flex-end;
+            padding-right:1.5rem;
+            column-gap:5px;
             align-items: flex-start; 
             z-index:10;
             &-img{
@@ -63,7 +65,7 @@
             }
             &-text{
                 h2{
-                    font-size:14px;
+                    font-size: 0.9rem;
                     color: $blue;
                 }
                 ul{
@@ -94,10 +96,10 @@
 .cercle{
     position: absolute;
     background-color: transparent;
-    top:13rem;
+    top:3rem;
     left:-3rem;
-    width:95%;
-    height:50%;
+    width:90%;
+    height:50vh;
     border-top-right-radius: 50%;
     border-top-left-radius: 40%;
     border-bottom-right-radius: 50%;
@@ -120,7 +122,7 @@
         &-working{
             column-gap: 1rem;
             & ul{
-                font-size: 11px;
+                font-size: 0.7rem;
                 width:10rem;
             }
             &-img{
@@ -129,17 +131,18 @@
         }
     }
     .cercle{
-        height:100vw;
+        height:55vh;
+        top:6rem;
     }
 }
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 490px){
     .block_presentation{
         margin-top: 3rem;
         &--united{
             &-gift{
                 h2{
-                    font-size: 16px;
+                    font-size: 1rem;
                 }
                 &-img{
                     width: 40%; 
@@ -149,7 +152,7 @@
                 align-items: center!important;
                 padding-right:2rem;
                 h2{
-                    font-size: 16px;
+                    font-size: 1rem;
                 }
                 &-img{
                     width: 33%;
@@ -161,7 +164,8 @@
         }
     }
     .cercle{
-        width:80%;
+        width:83%;
+        top:8rem;
     }
 }
 
@@ -174,8 +178,11 @@
         }
     }
     .cercle{
-        border-top-left-radius:35%;
-        top:15rem;
+        border-top-left-radius:45%;
+        top:5rem;
+        left:-10rem;
+        height:65vh;
+        width:95%;
     }
 }
 
@@ -215,6 +222,25 @@
             
         }
     }
+    .cercle{
+        top:11rem;
+    }
+}
+
+@media screen and (min-width: 850px){
+    .cercle{
+        top:13rem;
+        height:85vh;
+        width:90%;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .cercle{
+        top:15rem;
+        height:95vh;
+        width:85%;
+    }
 }
 
 @media screen and (min-width: 1100px){
@@ -232,7 +258,7 @@
                 }
             }
             p{
-                max-width: 30rem;
+                width: 20rem;
                 padding:20px 0;
                 font-size: 1.4rem;
                 width: 25rem;
@@ -253,14 +279,18 @@
             }
         }
     }
+    .cercle{
+        height:105vh;
+        border-bottom-left-radius: 50%;
+    }
 }
 
 @media screen and (min-width: 1400px){
     .block_presentation--united{
         &-gift{
             p{
-                font-size: 1.7rem;
-                width: 40rem;
+                font-size: 1.6rem;
+                width: 25rem;
             }
             h2{
                font-size: 3.5rem;
@@ -272,12 +302,16 @@
         &-working{
             column-gap: 12rem;
             & ul li{
-                font-size: 1.7rem;
+                font-size: 1.6rem;
                 width: 30rem;
             }
             h2{
                 font-size: 2.5rem;;
             }
         }
+    }
+    .cercle{
+        height:112vh;
+
     }
 }
