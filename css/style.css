@@ -191,6 +191,9 @@
     padding-right: 2.2rem;
   }
 }
+.block_presentation {
+  position: relative;
+}
 .block_presentation--background {
   width: 96%;
   z-index: -10;
@@ -427,6 +430,11 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
+}
+
+body {
+  max-width: 1500px !important;
+  margin: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
