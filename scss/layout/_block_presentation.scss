@@ -1,5 +1,13 @@
 //section block_presentation html line 59 at line 95
 .block_presentation{
+    background-image: url("../../images/background-suspend-us-entraide.png");
+    background-repeat : no-repeat;
+    background-position: -15px -15px ;
+    background-size: 100% 110%;
+    border-radius: 50%;
+    outline: 1px dashed $green;
+    outline-offset: 5px;
+    margin-left: 2rem;
      &--gift{
         display:flex;
         align-items: center;
@@ -9,6 +17,8 @@
         &-img{
             width: 160px;
             z-index:30;
+            
+            
         }
         &-text{
             margin-top:2.5rem;
@@ -31,14 +41,19 @@
     &--working{
         display: flex;
         max-width:97%;
+        padding-bottom:30%;
         justify-content: flex-end;
         align-items:center; 
         z-index:10;
         &-img{
-            width: 110px;
+           
             height:auto;
             object-fit: contain;
             z-index:30;
+            border-radius: 50%;
+            outline: 1px dashed $green;
+            outline-offset: 0px;
+        
         }
         &-text{
             h2{
@@ -65,19 +80,6 @@
             }
         }
     }
-    &--background{
-        position:absolute;
-        width:97%;
-        height: 21rem;
-        top: 7.5rem;
-        left:1rem;
-        background-color: $grey;
-        z-index:-10;
-        border-radius: 50%;
-        outline: 1px dashed $green;
-        outline-offset: 8px;
-        overflow: hidden;
-    }
 }
 
 
@@ -101,9 +103,9 @@
                 width:130px;
             }
         }
-        &--background{
-            height: 27rem;    
-        }
+        // &--background{
+        //      height: 60%;    
+        // }
     }
 }
 
@@ -133,10 +135,9 @@
                 font-size: 12px;
             }
         }
-        &--background{
-            left:2rem;
-            height: 30rem;
-            width:93%;
-        }
+        // &--background{
+        //     left:2rem;
+        //     width:93%;
+        // }
     }
 }

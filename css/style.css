@@ -176,6 +176,16 @@
     padding-right: 2.2rem;
   }
 }
+.block_presentation {
+  background-image: url("../../images/background-suspend-us-entraide.png");
+  background-repeat: no-repeat;
+  background-position: -15px -15px;
+  background-size: 100% 110%;
+  border-radius: 50%;
+  outline: 1px dashed #01b562;
+  outline-offset: 5px;
+  margin-left: 2rem;
+}
 .block_presentation--gift {
   display: flex;
   align-items: center;
@@ -207,15 +217,18 @@
 .block_presentation--working {
   display: flex;
   max-width: 97%;
+  padding-bottom: 30%;
   justify-content: flex-end;
   align-items: center;
   z-index: 10;
 }
 .block_presentation--working-img {
-  width: 110px;
   height: auto;
   object-fit: contain;
   z-index: 30;
+  border-radius: 50%;
+  outline: 1px dashed #01b562;
+  outline-offset: 0px;
 }
 .block_presentation--working-text h2 {
   font-size: 14px;
@@ -238,19 +251,6 @@
 .block_presentation--working-text ul li:nth-of-type(3) img {
   width: 11px;
 }
-.block_presentation--background {
-  position: absolute;
-  width: 97%;
-  height: 21rem;
-  top: 7.5rem;
-  left: 1rem;
-  background-color: #f3f3f3;
-  z-index: -10;
-  border-radius: 50%;
-  outline: 1px dashed #01b562;
-  outline-offset: 8px;
-  overflow: hidden;
-}
 
 @media screen and (min-width: 430px) {
   .block_presentation--gift {
@@ -270,9 +270,6 @@
   }
   .block_presentation--working-img {
     width: 130px;
-  }
-  .block_presentation--background {
-    height: 27rem;
   }
 }
 @media screen and (min-width: 500px) {
@@ -296,11 +293,6 @@
   }
   .block_presentation--working ul {
     font-size: 12px;
-  }
-  .block_presentation--background {
-    left: 2rem;
-    height: 30rem;
-    width: 93%;
   }
 }
 @keyframes appearNavbar {
