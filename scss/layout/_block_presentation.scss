@@ -9,8 +9,8 @@
         position: absolute;
         top:0rem;
         left:1rem;
-        outline: 1px dashed $green;
-        outline-offset: 5px;
+        outline: 1px dashed rgba(1, 181, 98, 0.4);;
+        outline-offset: 12px;
         border-radius: 50%;
     }
     &--united{
@@ -58,7 +58,7 @@
                 object-fit: contain;
                 z-index:30;
                 border-radius: 50%;
-                outline: 1px dashed $green;
+                outline: 1px dashed rgba(0, 90, 129,0.4);
                 outline-offset: 0px;
             }
             &-text{
@@ -96,14 +96,15 @@
     background-color: transparent;
     top:13rem;
     left:-3rem;
-    width:90%;
+    width:95%;
     height:50%;
     border-top-right-radius: 50%;
     border-top-left-radius: 40%;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 0%;
-    outline: 1px dashed $green;
+    outline: 1px dashed rgba(0, 90, 129,0.4);
     outline-offset: 0px;  
+    z-index:-1;
 }
 
 
@@ -173,7 +174,7 @@
         }
     }
     .cercle{
-        border-top-left-radius: 30%;
+        border-top-left-radius:35%;
         top:15rem;
     }
 }

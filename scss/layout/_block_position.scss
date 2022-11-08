@@ -1,0 +1,14 @@
+//section block_position HTML line 113 to 125
+
+.block_position {
+    display: flex;
+    align-items: center;
+    &--card iframe{
+        width:200px;
+        height:200px;
+        z-index:10;
+        border-radius: 50%;
+                outline: 1px dashed rgba(0, 90, 129,0.4);
+                outline-offset: 5px;
+    }
+}
