@@ -68,12 +68,6 @@
     font-size: 0.9rem;
   }
 }
-@media screen and (min-width: 1500px) {
-  .block_presentation--united-gift-text button {
-    padding: 10px 30px;
-    font-size: 1rem;
-  }
-}
 @keyframes appearNavbar {
   0% {
     transform: translateY(-250px);
@@ -198,7 +192,7 @@
   width: 96%;
   z-index: -10;
   position: absolute;
-  top: 7rem;
+  top: 0rem;
   left: 1rem;
   outline: 1px dashed #01b562;
   outline-offset: 5px;
@@ -435,6 +429,21 @@
 body {
   max-width: 1500px !important;
   margin: auto;
+}
+
+.cercle {
+  position: absolute;
+  background-color: transparent;
+  top: 12rem;
+  left: -2rem;
+  width: 85%;
+  height: 60%;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 40%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 40%;
+  outline: 1px dashed #01b562;
+  outline-offset: 0px;
 }
 
 /*# sourceMappingURL=style.css.map */
