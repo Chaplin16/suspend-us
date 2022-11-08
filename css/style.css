@@ -22,13 +22,13 @@
   background-color: #005a81;
 }
 
-.block_presentation--gift-text button {
+.block_presentation--united-gift-text button {
   background-color: #01b562;
   border: none;
   padding: 8px 15px;
   border-radius: 50px;
   color: #fff;
-  font-size: 8px;
+  font-size: 0.6rem;
 }
 
 @media screen and (min-width: 500px) {
@@ -176,53 +176,57 @@
     padding-right: 2.2rem;
   }
 }
-.block_presentation {
-  background-image: url("../../images/background-suspend-us-entraide.png");
-  background-repeat: no-repeat;
-  background-position: -15px -15px;
-  background-size: 100% 110%;
-  border-radius: 50%;
+.block_presentation--background {
+  width: 96%;
+  z-index: -10;
+  position: absolute;
+  top: 7rem;
+  left: 1rem;
   outline: 1px dashed #01b562;
   outline-offset: 5px;
-  margin-left: 2rem;
+  border-radius: 50%;
 }
-.block_presentation--gift {
+.block_presentation--united {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.block_presentation--united-gift {
   display: flex;
   align-items: center;
   justify-content: center;
   column-gap: 1rem;
   z-index: 10;
 }
-.block_presentation--gift-img {
-  width: 160px;
+.block_presentation--united-gift-img {
+  width: 150px;
   z-index: 30;
 }
-.block_presentation--gift-text {
+.block_presentation--united-gift-text {
   margin-top: 2.5rem;
 }
-.block_presentation--gift-text h2 {
+.block_presentation--united-gift-text h2 {
   font-size: 14px;
   color: #005a81;
 }
-.block_presentation--gift-text h2 img {
+.block_presentation--united-gift-text h2 img {
   width: 10px;
   padding-bottom: 6px;
   margin-right: -4px;
 }
-.block_presentation--gift-text p {
-  font-size: 9px;
+.block_presentation--united-gift-text p {
+  font-size: 0.7rem;
   width: 9rem;
   padding: 10px 0;
 }
-.block_presentation--working {
+.block_presentation--united-working {
   display: flex;
-  max-width: 97%;
-  padding-bottom: 30%;
   justify-content: flex-end;
-  align-items: center;
+  align-items: flex-start;
   z-index: 10;
 }
-.block_presentation--working-img {
+.block_presentation--united-working-img {
+  width: 80px;
   height: auto;
   object-fit: contain;
   z-index: 30;
@@ -230,69 +234,100 @@
   outline: 1px dashed #01b562;
   outline-offset: 0px;
 }
-.block_presentation--working-text h2 {
+.block_presentation--united-working-text h2 {
   font-size: 14px;
   color: #005a81;
 }
-.block_presentation--working-text ul {
+.block_presentation--united-working-text ul {
   list-style: none;
-  font-size: 9px;
+  font-size: 0.7rem;
   width: 9rem;
 }
-.block_presentation--working-text ul span {
+.block_presentation--united-working-text ul span {
   color: #005a81;
 }
-.block_presentation--working-text ul li {
+.block_presentation--united-working-text ul li {
   padding: 2px 0;
 }
-.block_presentation--working-text ul li:nth-of-type(3) {
+.block_presentation--united-working-text ul li:nth-of-type(3) {
   font-weight: 600;
 }
-.block_presentation--working-text ul li:nth-of-type(3) img {
+.block_presentation--united-working-text ul li:nth-of-type(3) img {
   width: 11px;
 }
 
-@media screen and (min-width: 430px) {
-  .block_presentation--gift {
+@media screen and (min-width: 400px) {
+  .block_presentation--united {
+    row-gap: 2rem;
+  }
+  .block_presentation--united-gift {
     margin-top: -1rem;
   }
-  .block_presentation--gift p {
-    font-size: 11px;
+  .block_presentation--united-gift-img {
+    width: 180px;
   }
-  .block_presentation--working {
-    padding-top: 3rem;
+  .block_presentation--united-working {
     column-gap: 1rem;
-    max-width: 95%;
   }
-  .block_presentation--working ul {
+  .block_presentation--united-working ul {
     font-size: 11px;
     width: 10rem;
   }
-  .block_presentation--working-img {
-    width: 130px;
+  .block_presentation--united-working-img {
+    width: 120px;
   }
 }
 @media screen and (min-width: 500px) {
   .block_presentation {
     margin-top: 3rem;
   }
-  .block_presentation--gift h2 {
+  .block_presentation--united-gift h2 {
     font-size: 16px;
   }
-  .block_presentation--gift img {
-    width: 200px;
+  .block_presentation--united-gift-img {
+    width: 40%;
   }
-  .block_presentation--gift p {
-    font-size: 12px;
+  .block_presentation--united-working {
+    align-items: center !important;
+    padding-right: 2rem;
   }
-  .block_presentation--working h2 {
+  .block_presentation--united-working h2 {
     font-size: 16px;
   }
-  .block_presentation--working img {
-    width: 160px;
+  .block_presentation--united-working-img {
+    width: 33%;
   }
-  .block_presentation--working ul {
-    font-size: 12px;
+  .block_presentation--united-working ul {
+    width: 12rem;
+  }
+}
+@media screen and (min-width: 600px) {
+  .block_presentation--united-gift p, .block_presentation--united-working ul {
+    font-size: 1rem;
+    width: 15rem;
+  }
+}
+@media screen and (min-width: 750px) {
+  .block_presentation--background {
+    left: 1.5rem;
+  }
+  .block_presentation--united-gift {
+    margin-top: -3rem;
+  }
+  .block_presentation--united-gift h2 {
+    font-size: 2rem;
+  }
+  .block_presentation--united-gift h2 img {
+    width: 20px;
+    margin: 0 -8px;
+    padding-bottom: 10px;
+  }
+  .block_presentation--united-working ul {
+    font-size: 1.2rem;
+    width: 18rem;
+  }
+  .block_presentation--united-working h2 {
+    font-size: 2rem;
   }
 }
 @keyframes appearNavbar {
