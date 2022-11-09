@@ -1,0 +1,38 @@
+// section block_shopkeepers HTML line 146 to 159
+
+.block_shopkeepers{
+    position: relative;
+    &--background{
+        position: absolute;
+        top:5rem;
+        left:1rem;
+        width:250px;
+        z-index: -10;
+    }
+    &--united{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+        height: 30vh;
+        &-text{
+            h3{
+                font-size: 0.9rem;
+            }
+            span{
+                font-size: 0.6rem;
+            }
+            p {
+                font-size: 0.7rem;
+            }
+        }
+        &-img{
+            position: relative;
+            & img{
+                position: absolute;
+                right:0;
+                width:130px;
+            }
+        }
+    }
+}

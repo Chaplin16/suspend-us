@@ -72,6 +72,23 @@
   font-size: 0.6rem;
 }
 
+.block_shopkeepers--text-btn1 {
+  background-color: #01b562;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 0.6rem;
+}
+.block_shopkeepers--text-btn2 {
+  background-color: #005a81;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 0.6rem;
+}
+
 @media screen and (min-width: 490px) {
   .block_position--search-button img {
     width: 19px;
@@ -109,6 +126,9 @@
   }
   .block_position--search-button button {
     font-size: 0.9rem;
+  }
+  .block_position--search-button img {
+    width: 23px;
   }
 
   .block_mission--united-text button {
@@ -787,6 +807,41 @@
     width: 40rem;
   }
 }
+.block_shopkeepers {
+  position: relative;
+}
+.block_shopkeepers--background {
+  position: absolute;
+  top: 5rem;
+  left: 1rem;
+  width: 250px;
+  z-index: -10;
+}
+.block_shopkeepers--united {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  height: 30vh;
+}
+.block_shopkeepers--united-text h3 {
+  font-size: 0.9rem;
+}
+.block_shopkeepers--united-text span {
+  font-size: 0.6rem;
+}
+.block_shopkeepers--united-text p {
+  font-size: 0.7rem;
+}
+.block_shopkeepers--united-img {
+  position: relative;
+}
+.block_shopkeepers--united-img img {
+  position: absolute;
+  right: 0;
+  width: 130px;
+}
+
 @keyframes appearNavbar {
   0% {
     transform: translateY(-250px);
