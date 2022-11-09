@@ -63,6 +63,15 @@
   font-size: 0.7rem;
 }
 
+.block_mission--united-text button {
+  background-color: #01b562;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 0.6rem;
+}
+
 @media screen and (min-width: 490px) {
   .block_position--search-button img {
     width: 19px;
@@ -76,8 +85,7 @@
   .block_position--search-button button {
     padding: 8px;
   }
-}
-@media screen and (min-width: 500px) {
+
   .selectChoice {
     position: absolute;
     right: 0;
@@ -326,9 +334,9 @@
   height: auto;
   object-fit: contain;
   z-index: 30;
-  border-radius: 50%;
   outline: 1px dashed rgba(0, 90, 129, 0.4);
   outline-offset: 0px;
+  border-radius: 50%;
 }
 .block_presentation--united-working-text h2 {
   font-size: 0.9rem;
@@ -364,9 +372,9 @@
   border-top-right-radius: 50%;
   border-top-left-radius: 40%;
   border-bottom-right-radius: 50%;
-  border-bottom-left-radius: 50%;
   outline: 1px dashed rgba(0, 90, 129, 0.4);
   outline-offset: 0px;
+  border-radius: 50%;
   z-index: -1;
 }
 
@@ -658,6 +666,64 @@
   }
   .block_position--search p {
     font-size: 1.6rem;
+  }
+}
+.block_mission {
+  margin-top: 5rem;
+  position: relative;
+}
+.block_mission--background {
+  display: none;
+}
+.block_mission--united {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0.5rem;
+}
+.block_mission--united-img img {
+  width: 10rem;
+  outline: 1px dashed rgba(0, 90, 129, 0.4);
+  outline-offset: 0px;
+  border-radius: 50%;
+}
+.block_mission--united-text {
+  width: 15rem;
+}
+.block_mission--united-text h3 {
+  font-size: 0.9rem;
+  color: #005a81;
+  padding-bottom: 1rem;
+}
+.block_mission--united-text p {
+  padding-bottom: 1rem;
+  color: rgb(94, 93, 93);
+}
+
+@media screen and (min-width: 400px) {
+  .block_mission--united-text {
+    width: 22rem;
+  }
+}
+@media screen and (min-width: 600px) {
+  .block_mission--background {
+    display: block;
+    position: absolute;
+    width: 100%;
+    z-index: -10;
+    top: -3rem;
+    left: 0;
+  }
+}
+@media screen and (min-width: 750px) {
+  .block_mission--united {
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: flex-end;
+    column-gap: 2rem;
+  }
+  .block_mission--united-img img {
+    width: 12rem;
   }
 }
 @keyframes appearNavbar {

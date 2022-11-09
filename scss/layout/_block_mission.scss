@@ -1,0 +1,61 @@
+// section block_mission HTML line 124 to 139
+
+.block_mission {
+    margin-top:5rem;
+    position: relative; 
+    &--background{
+     display: none;
+    }
+    &--united{
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        row-gap:0.5rem;
+        &-img img{
+            width: 10rem;
+            @include border-blue;
+        }
+        &-text{
+            width: 15rem;
+            h3{
+                font-size: 0.9rem;
+                color: $blue;
+                padding-bottom: 1rem;   
+            }
+            p{
+                padding-bottom: 1rem;
+                color: $text-grey;
+            }
+        } 
+    }
+}
+
+@media screen and (min-width: 400px){
+    .block_mission--united-text{
+        width:22rem;
+    }
+}
+
+@media screen and (min-width: 600px){
+    .block_mission--background{
+        display: block;
+        position: absolute;
+        width: 100%;
+        z-index: -10;
+        top: -3rem;
+        left: 0;
+    }
+}
+
+@media screen and (min-width: 750px){
+    .block_mission--united{
+       flex-direction: row!important;
+       justify-content: center;
+       align-items: flex-end;
+       column-gap:2rem;
+       &-img img{
+        width: 12rem;
+       }
+
+    }
+}

@@ -9,9 +9,7 @@
         position: absolute;
         top:0rem;
         left:1rem;
-        outline: 1px dashed rgba(1, 181, 98, 0.4);;
-        outline-offset: 8px;
-        border-radius: 50%;
+        @include border-green;
     }
     &--united{
         display: flex;
@@ -59,9 +57,7 @@
                 height:auto;
                 object-fit: contain;
                 z-index:30;
-                border-radius: 50%;
-                outline: 1px dashed rgba(0, 90, 129,0.4);
-                outline-offset: 0px;
+                @include border-blue;
             }
             &-text{
                 h2{
@@ -103,9 +99,7 @@
     border-top-right-radius: 50%;
     border-top-left-radius: 40%;
     border-bottom-right-radius: 50%;
-    border-bottom-left-radius: 50%;
-    outline: 1px dashed rgba(0, 90, 129,0.4);
-    outline-offset: 0px;  
+    @include border-blue;
     z-index:-1;
 }
 
@@ -281,7 +275,6 @@
     }
     .cercle{
         height:105vh;
-
     }
 }
 
