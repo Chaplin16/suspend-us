@@ -72,7 +72,7 @@
   font-size: 0.6rem;
 }
 
-.block_shopkeepers--text-btn1 {
+.block_shopkeepers--united-text-btn1 {
   background-color: #01b562;
   border: none;
   padding: 8px 15px;
@@ -80,7 +80,7 @@
   color: #fff;
   font-size: 0.6rem;
 }
-.block_shopkeepers--text-btn2 {
+.block_shopkeepers--united-text-btn2 {
   background-color: #005a81;
   border: none;
   padding: 8px 15px;
@@ -739,6 +739,9 @@
   .block_mission--united-text {
     width: 22rem;
   }
+  .block_mission--united-text h3 {
+    font-size: 1rem;
+  }
 }
 @media screen and (min-width: 600px) {
   .block_mission--background {
@@ -813,35 +816,79 @@
 .block_shopkeepers--background {
   position: absolute;
   top: 5rem;
-  left: 1rem;
-  width: 250px;
+  left: 0;
+  width: 80%;
   z-index: -10;
 }
 .block_shopkeepers--united {
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
-  justify-content: center;
-  height: 30vh;
+  align-items: baseline;
+  justify-content: flex-end;
+}
+.block_shopkeepers--united-text {
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  row-gap: 0.5rem;
 }
 .block_shopkeepers--united-text h3 {
   font-size: 0.9rem;
 }
 .block_shopkeepers--united-text span {
   font-size: 0.6rem;
+  color: rgb(94, 93, 93);
 }
 .block_shopkeepers--united-text p {
   font-size: 0.7rem;
-}
-.block_shopkeepers--united-img {
-  position: relative;
+  color: rgb(94, 93, 93);
 }
 .block_shopkeepers--united-img img {
-  position: absolute;
-  right: 0;
-  width: 130px;
+  width: 8rem;
 }
 
+@media screen and (min-width: 420px) {
+  .block_shopkeepers--united-text {
+    width: 12rem;
+  }
+  .block_shopkeepers--united-text h3 {
+    font-size: 1rem;
+  }
+  .block_shopkeepers--united-text span {
+    font-size: 0.7rem;
+  }
+  .block_shopkeepers--united-text p {
+    font-size: 0.9rem;
+  }
+  .block_shopkeepers--united-img img {
+    width: 11rem;
+  }
+}
+@media screen and (min-width: 500px) {
+  .block_shopkeepers {
+    margin-top: 5rem;
+  }
+  .block_shopkeepers--background {
+    width: 70%;
+    top: 9rem;
+  }
+  .block_shopkeepers--united-img img {
+    width: 16rem;
+  }
+  .block_shopkeepers--united-text {
+    width: 14rem;
+  }
+}
+@media screen and (min-width: 620px) {
+  .block_shopkeepers--background {
+    width: 60%;
+    top: 6rem;
+    left: 4rem;
+  }
+  .block_shopkeepers--united-text {
+    width: 14rem;
+  }
+}
 @keyframes appearNavbar {
   0% {
     transform: translateY(-250px);

@@ -5,33 +5,88 @@
     &--background{
         position: absolute;
         top:5rem;
-        left:1rem;
-        width:250px;
+        left:0;
+        width:80%;
         z-index: -10;
     }
     &--united{
         display: flex;
         flex-direction: row;
-        align-items: flex-end;
-        justify-content: center;
-        height: 30vh;
+        align-items: baseline;
+        justify-content: flex-end;
         &-text{
+            display: flex;
+            flex-direction: column;
+            width:10rem;
+            row-gap:0.5rem;
             h3{
                 font-size: 0.9rem;
             }
             span{
                 font-size: 0.6rem;
+                color: $text-grey;
             }
             p {
                 font-size: 0.7rem;
+                color: $text-grey;
             }
         }
-        &-img{
-            position: relative;
-            & img{
-                position: absolute;
-                right:0;
-                width:130px;
+        &-img img{
+            width:8rem;  
+        }
+    }
+}
+
+
+@media screen and (min-width: 420px){
+    .block_shopkeepers--united{
+        &-text{
+            width: 12rem;
+            h3{
+                font-size: 1rem;
+            }
+            span{
+                font-size: 0.7rem;
+            }
+            p {
+                font-size: 0.9rem;
+            }
+        }
+        &-img img{
+            width: 11rem;  
+        }
+    }
+}
+
+@media screen and (min-width: 500px){
+    .block_shopkeepers{
+        margin-top:5rem;
+        &--background{
+            width:70%;
+            top: 9rem;
+        }
+        &--united{
+            &-img img{
+                width: 16rem;  
+            }
+            &-text {
+                width: 14rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 620px){
+    .block_shopkeepers{
+        &--background{
+            width:60%;
+            top: 6rem;
+            left: 4rem;
+        }
+        &--united{          
+            &-text {
+                width: 14rem;
+                
             }
         }
     }
