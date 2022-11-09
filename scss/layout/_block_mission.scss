@@ -1,7 +1,7 @@
 // section block_mission HTML line 124 to 139
 
 .block_mission {
-    margin-top:5rem;
+    margin-top:4rem;
     position: relative; 
     &--background{
      display: none;
@@ -48,14 +48,62 @@
 }
 
 @media screen and (min-width: 750px){
-    .block_mission--united{
-       flex-direction: row!important;
-       justify-content: center;
-       align-items: flex-end;
-       column-gap:2rem;
-       &-img img{
-        width: 12rem;
-       }
+    .block_mission{
+        &--background{
+            top:-10rem;
+            max-width: 1250px;
+        }
+        &--united{
+            flex-direction: row!important;
+            justify-content: center;
+            align-items: flex-end;
+            column-gap:2rem;
+            margin-right: 4rem;
+            &-img img{
+                width: 11rem;
+            }
+            &-text{
+                width:27rem;
+                h3{
+                    font-size:2rem;
+                }
+                p{
+                    font-size:1.2rem;
+                }
+            }
+        }
 
+    }
+}
+
+@media screen and (min-width: 900px){
+    .block_mission--united{
+        column-gap:3rem;
+        vertical-align: bottom;
+        height:40vh;
+        &-img img{
+            width:23rem;
+            margin-bottom:-6rem;
+        }
+        &-text{
+            width:30rem;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .block_mission{
+        margin-top:0;
+    }
+    .block_mission--background{
+        left:5vw;
+        top:-8.5rem;
+    }
+    .block_mission--united{
+        height:53vh;
+        &-text p{
+            font-size:1.55rem;
+            width:40rem;
+        }
     }
 }

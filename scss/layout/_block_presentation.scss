@@ -21,9 +21,8 @@
             justify-content: center;
             column-gap: 1rem;
             z-index: 10;
-            
             &-img{
-                width: 150px;
+                width: 140px;
                 z-index:30;   
             }
             &-text{
@@ -242,7 +241,7 @@
         &-gift{
             padding-left: 7rem;
             margin-top: -2.5rem;
-            column-gap: 8%;
+            
             h2{
                 font-size: 3rem;
                 & img{
@@ -275,6 +274,12 @@
     }
     .cercle{
         height:105vh;
+    }
+}
+
+@media screen and (min-width: 1250px){
+    .block_presentation--united-gift{
+        column-gap:7.5%;
     }
 }
 
