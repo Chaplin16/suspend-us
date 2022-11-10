@@ -34,6 +34,9 @@
         &--img img{
             width:11rem;  
         }
+        &--img-full{
+            display: none;
+        }
     }
 
 
@@ -147,4 +150,17 @@
             width: 32rem;  
         }
     }
+}
+
+@media screen and (min-width: 1250px){
+    .block_shopkeepers--img{
+        img{
+            display: none;
+        }
+        &-full{
+            display:block!important;
+            width:80%!important;
+        }
+    }
+
 }

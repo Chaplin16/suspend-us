@@ -54,7 +54,7 @@
     .block_mission{
         &--background{
             top:-10rem;
-            max-width: 1250px;
+            max-width: 1130px;
         }
         &--united{
             flex-direction: row!important;
@@ -105,8 +105,8 @@
     .block_mission--united{
         height:53vh;
         &-text p{
-            font-size:1.55rem;
-            width:40rem;
+            font-size:1.4rem;
+            width:36rem;
         }
     }
 }

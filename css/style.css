@@ -578,38 +578,12 @@
   }
 
   .cercle {
-    height: 105vh;
+    height: 118vh;
   }
 }
 @media screen and (min-width: 1250px) {
   .block_presentation--united-gift {
     column-gap: 7.5%;
-  }
-}
-@media screen and (min-width: 1400px) {
-  .block_presentation--united-gift p {
-    font-size: 1.6rem;
-    width: 25rem;
-  }
-  .block_presentation--united-gift h2 {
-    font-size: 3.5rem;
-  }
-  .block_presentation--united-gift h2 img {
-    width: 35px;
-  }
-  .block_presentation--united-working {
-    column-gap: 12rem;
-  }
-  .block_presentation--united-working ul li {
-    font-size: 1.6rem;
-    width: 30rem;
-  }
-  .block_presentation--united-working h2 {
-    font-size: 2.5rem;
-  }
-
-  .cercle {
-    height: 112vh;
   }
 }
 .block_position {
@@ -772,7 +746,7 @@
 @media screen and (min-width: 750px) {
   .block_mission--background {
     top: -10rem;
-    max-width: 1250px;
+    max-width: 1130px;
   }
   .block_mission--united {
     flex-direction: row !important;
@@ -822,8 +796,8 @@
     height: 53vh;
   }
   .block_mission--united-text p {
-    font-size: 1.55rem;
-    width: 40rem;
+    font-size: 1.4rem;
+    width: 36rem;
   }
 }
 .block_shopkeepers {
@@ -862,6 +836,9 @@
 }
 .block_shopkeepers--img img {
   width: 11rem;
+}
+.block_shopkeepers--img-full {
+  display: none;
 }
 
 @media screen and (min-width: 500px) {
@@ -964,6 +941,15 @@
   }
   .block_shopkeepers--img img {
     width: 32rem;
+  }
+}
+@media screen and (min-width: 1250px) {
+  .block_shopkeepers--img img {
+    display: none;
+  }
+  .block_shopkeepers--img-full {
+    display: block !important;
+    width: 80% !important;
   }
 }
 @keyframes appearNavbar {
