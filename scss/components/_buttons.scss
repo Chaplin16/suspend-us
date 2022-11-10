@@ -84,6 +84,11 @@
     }
 }
 
+//button contact HTML line 192 to 193
+.block_press--text button {
+    background-color: $green;
+    @include button;
+} 
 
 @media screen and (min-width: 490px){
     .block_position--search-button{
@@ -105,12 +110,6 @@
         right: 0;
         top: 5rem;
     }
-    .block_shopkeepers--text {
-        &-btn1,
-        &-btn2{
-            font-size: 0.7rem;
-        }
-    }
 }
 
 @media screen and (min-width: 750px){
@@ -123,9 +122,11 @@
         }
 
     }
+
     .block_presentation--united-gift-text button{
         font-size: 0.9rem;
     }
+
     .block_position--search-button{
         & input {
             max-width: 60%;
@@ -138,14 +139,19 @@
             width: 23px;
         }
     }
+
     .block_mission--united-text button{
         font-size:0.9rem;
     }
+
     .block_shopkeepers--text {
         &-btn1,
         &-btn2{
             font-size: 0.9rem;
         }
+    }
+    .block_press--text button {
+        font-size: 0.9rem;
     }
 }
 
@@ -161,6 +167,9 @@
 }
 
 @media screen and (min-width: 1000px){
+    .block_presentation--united-gift-text button{
+        padding: 12px 15px;
+    }
     .block_position--search-button{
         button {
             padding-left: 1.5rem!important;
@@ -168,11 +177,17 @@
             right: -0.5rem!important;
         }
     }
+    .block_mission--united-text button{
+        padding: 12px 15px;
+    }
     .block_shopkeepers--text {
         &-btn1,
         &-btn2{
-            padding: 12px 15px;;
+            padding: 12px 15px;
         }
+    }
+    .block_press--text button {
+        padding: 12px 15px;
     }
 }
 
@@ -214,9 +229,17 @@
     .block_mission--united-text button{
         font-size:1rem;
         padding: 12px 25px;
-        margin-top: 1rem;
+        margin-top: 0.9rem;
     }
-
+    .block_shopkeepers--text {
+        &-btn1,
+        &-btn2{
+            padding: 12px 25px;
+        }
+    }
+    .block_press--text button {
+        padding: 12px 25px;
+    }
 
 }
 

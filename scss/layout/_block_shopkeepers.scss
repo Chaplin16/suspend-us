@@ -5,6 +5,7 @@
         flex-direction: row;
         align-items: baseline;
         justify-content: flex-end;
+        margin-top: 2rem;
         &--text{
             position: relative;
             display: flex;
@@ -44,6 +45,7 @@
 @media screen and (min-width: 500px){
     .block_shopkeepers{
         align-items: center;
+        margin-top:0;
         &--text{
             width: 14rem;
             margin-top:13rem;
@@ -154,7 +156,14 @@
 
 @media screen and (min-width: 1250px){
     .block_shopkeepers{
-        margin-top: 0
+        margin-top:0;
+        &--text {
+            width: 17.5rem;
+            p{
+                width: 20rem;
+                font-size: 1.4rem;
+            }
+        }
     }
     .block_shopkeepers--img{
         img{
