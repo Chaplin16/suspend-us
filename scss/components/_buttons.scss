@@ -90,6 +90,7 @@
     @include button;
 } 
 
+
 @media screen and (min-width: 490px){
     .block_position--search-button{
         & img{
@@ -122,11 +123,9 @@
         }
 
     }
-
     .block_presentation--united-gift-text button{
         font-size: 0.9rem;
     }
-
     .block_position--search-button{
         & input {
             max-width: 60%;
@@ -139,11 +138,9 @@
             width: 23px;
         }
     }
-
     .block_mission--united-text button{
         font-size:0.9rem;
     }
-
     .block_shopkeepers--text {
         &-btn1,
         &-btn2{
