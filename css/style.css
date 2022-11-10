@@ -1153,6 +1153,25 @@
     font-size: 2.7rem;
   }
 }
+.block_readyTogether {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  column-gap: 0.5rem;
+}
+.block_readyTogether--img img {
+  width: 140px;
+}
+.block_readyTogether--text h3 {
+  font-size: 0.9rem;
+  color: #00384c;
+}
+
+@media screen and (min-width: 400px) {
+  .block_readyTogether {
+    margin-top: 2rem;
+  }
+}
 @keyframes appearNavbar {
   0% {
     transform: translateY(-250px);
