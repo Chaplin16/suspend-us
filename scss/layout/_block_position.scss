@@ -28,7 +28,6 @@
 
 @media screen and (min-width: 400px){
     .block_position {
-        column-gap:1.5rem;
         margin-top:1rem;
         &--card iframe{
             width: 11rem;
@@ -37,19 +36,21 @@
     }
 }
 
-@media screen and (min-width: 490px){
+@media screen and (min-width: 480px){
     .block_position {
         margin-top:2rem;
+        column-gap: 0;
         &--card iframe{
             width: 17rem;
             height: 17rem;
         }
         &--search{
+            margin-left: -10px;
             h3{
                 font-size: 1rem;
             }
             p{
-                font-size: 0.9rem;
+                font-size: 0.85rem;
             }
         }
     }
@@ -57,7 +58,9 @@
 
 @media screen and (min-width: 600px){
     .block_position {
+        margin-top: 3.5rem;
         column-gap: 3rem;
+        align-items: center;
     }
 }
 
@@ -76,7 +79,7 @@
                 font-size: 1.7rem;
             }
             p{
-                font-size: 1.1rem;
+                font-size: 1rem;
             }
         }
     }
@@ -91,18 +94,13 @@
         }
         &--search{
             margin-top:5rem;
-            h3{
-                font-size: 2rem;
-            }
-            p{
-                font-size: 1.2rem;
-            }
         }
     }
 }
 
 @media screen and (min-width: 1100px){
-    .block_position{    
+    .block_position{   
+        margin-top:14rem; 
         &--card iframe{
             width: 33rem;
             height:33rem;

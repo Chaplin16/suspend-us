@@ -32,13 +32,17 @@
         padding-left:0.3rem;
         &--img img{
             width: 40vw;
-            max-width: 400px;
+            max-width: 450px;
         }
-        &--text h3{
-            font-size: 1.1rem;
+        &--text{
+            margin-left: -1rem;
+            h3{
+                font-size: 1.1rem;
+            }
         }
     }
 }
+
 @media screen and (min-width: 750px){
     .block_readyTogether{
         &--text h3{
@@ -46,3 +50,21 @@
         }
     }
 }
+
+@media screen and (min-width: 1000px){
+    .block_readyTogether{
+        &--text h3{
+            font-size: 2rem;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .block_readyTogether{
+        padding-left: 5.5rem;
+        &--text h3{
+            font-size: 2.2rem;
+        }
+    }
+}
+
