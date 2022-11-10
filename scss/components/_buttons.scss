@@ -73,7 +73,7 @@
 }
 
 // buttonS shopkeepers HTML line 154 et line 155
-.block_shopkeepers--united-text {
+.block_shopkeepers--text {
     &-btn1{
         background-color: $green;
         @include button;
@@ -105,6 +105,12 @@
         right: 0;
         top: 5rem;
     }
+    .block_shopkeepers--text {
+        &-btn1,
+        &-btn2{
+            font-size: 0.7rem;
+        }
+    }
 }
 
 @media screen and (min-width: 750px){
@@ -115,6 +121,7 @@
             width: 90px!important;
             padding-left: 25px;
         }
+
     }
     .block_presentation--united-gift-text button{
         font-size: 0.9rem;
@@ -134,11 +141,22 @@
     .block_mission--united-text button{
         font-size:0.9rem;
     }
+    .block_shopkeepers--text {
+        &-btn1,
+        &-btn2{
+            font-size: 0.9rem;
+        }
+    }
 }
 
-@media screen and (min-width: 850px){
+@media screen and (min-width: 900px){
     .selectChoice{
         top:7rem;
+    }
+    .block_shopkeepers--text {
+        &-btn1{
+            margin-top:1rem;
+        }
     }
 }
 
@@ -148,6 +166,12 @@
             padding-left: 1.5rem!important;
             padding-right: 1.5rem;
             right: -0.5rem!important;
+        }
+    }
+    .block_shopkeepers--text {
+        &-btn1,
+        &-btn2{
+            padding: 12px 15px;;
         }
     }
 }

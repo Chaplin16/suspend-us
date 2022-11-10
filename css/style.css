@@ -28,7 +28,7 @@
   padding: 8px 15px;
   border-radius: 50px;
   color: #fff;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
 }
 
 .block_position--search-button {
@@ -69,24 +69,24 @@
   padding: 8px 15px;
   border-radius: 50px;
   color: #fff;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
 }
 
-.block_shopkeepers--united-text-btn1 {
+.block_shopkeepers--text-btn1 {
   background-color: #01b562;
   border: none;
   padding: 8px 15px;
   border-radius: 50px;
   color: #fff;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
 }
-.block_shopkeepers--united-text-btn2 {
+.block_shopkeepers--text-btn2 {
   background-color: #005a81;
   border: none;
   padding: 8px 15px;
   border-radius: 50px;
   color: #fff;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
 }
 
 @media screen and (min-width: 490px) {
@@ -107,6 +107,10 @@
     position: absolute;
     right: 0;
     top: 5rem;
+  }
+
+  .block_shopkeepers--text-btn1, .block_shopkeepers--text-btn2 {
+    font-size: 0.7rem;
   }
 }
 @media screen and (min-width: 750px) {
@@ -134,10 +138,18 @@
   .block_mission--united-text button {
     font-size: 0.9rem;
   }
+
+  .block_shopkeepers--text-btn1, .block_shopkeepers--text-btn2 {
+    font-size: 0.9rem;
+  }
 }
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 900px) {
   .selectChoice {
     top: 7rem;
+  }
+
+  .block_shopkeepers--text-btn1 {
+    margin-top: 1rem;
   }
 }
 @media screen and (min-width: 1000px) {
@@ -145,6 +157,10 @@
     padding-left: 1.5rem !important;
     padding-right: 1.5rem;
     right: -0.5rem !important;
+  }
+
+  .block_shopkeepers--text-btn1, .block_shopkeepers--text-btn2 {
+    padding: 12px 15px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -667,7 +683,7 @@
     font-size: 1.1rem;
   }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 900px) {
   .block_position {
     margin-top: 9rem;
   }
@@ -811,82 +827,143 @@
   }
 }
 .block_shopkeepers {
-  position: relative;
-}
-.block_shopkeepers--background {
-  position: absolute;
-  top: 5rem;
-  left: 0;
-  width: 80%;
-  z-index: -10;
-}
-.block_shopkeepers--united {
   display: flex;
   flex-direction: row;
   align-items: baseline;
   justify-content: flex-end;
 }
-.block_shopkeepers--united-text {
+.block_shopkeepers--text {
+  position: relative;
   display: flex;
   flex-direction: column;
   width: 10rem;
   row-gap: 0.5rem;
 }
-.block_shopkeepers--united-text h3 {
+.block_shopkeepers--text-background {
+  position: absolute;
+  bottom: -3rem;
+  left: -4.5rem;
+  width: 190%;
+  z-index: -10;
+  outline: 1px dashed rgba(1, 181, 98, 0.4);
+  outline-offset: 8px;
+  border-radius: 50%;
+}
+.block_shopkeepers--text h3 {
   font-size: 0.9rem;
 }
-.block_shopkeepers--united-text span {
+.block_shopkeepers--text span {
   font-size: 0.6rem;
   color: rgb(94, 93, 93);
 }
-.block_shopkeepers--united-text p {
+.block_shopkeepers--text p {
   font-size: 0.7rem;
   color: rgb(94, 93, 93);
 }
-.block_shopkeepers--united-img img {
-  width: 8rem;
+.block_shopkeepers--img img {
+  width: 11rem;
 }
 
-@media screen and (min-width: 420px) {
-  .block_shopkeepers--united-text {
+@media screen and (min-width: 500px) {
+  .block_shopkeepers {
+    align-items: center;
+  }
+  .block_shopkeepers--text {
+    width: 14rem;
+    margin-top: 13rem;
+    margin-left: 1rem;
+  }
+  .block_shopkeepers--text-background {
+    bottom: -4rem;
+    left: -6rem;
+    width: 23rem;
+  }
+  .block_shopkeepers--text h3 {
+    font-size: 1.1rem;
     width: 12rem;
   }
-  .block_shopkeepers--united-text h3 {
+  .block_shopkeepers--text span {
+    font-size: 0.7rem;
+    margin-top: 5px;
+  }
+  .block_shopkeepers--text p {
+    padding-top: 1rem;
     font-size: 1rem;
   }
-  .block_shopkeepers--united-text span {
-    font-size: 0.7rem;
-  }
-  .block_shopkeepers--united-text p {
-    font-size: 0.9rem;
-  }
-  .block_shopkeepers--united-img img {
-    width: 11rem;
+  .block_shopkeepers--img img {
+    width: 17rem;
   }
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 550px) {
+  .block_shopkeepers--text {
+    margin-top: 16rem;
+    margin-left: 0;
+  }
+  .block_shopkeepers--text-background {
+    bottom: -5rem;
+    left: -5rem;
+  }
+}
+@media screen and (min-width: 750px) {
+  .block_shopkeepers--text {
+    width: 17rem;
+    margin-top: 20rem;
+  }
+  .block_shopkeepers--text-background {
+    bottom: -7rem;
+    left: -7rem;
+    width: 31rem;
+  }
+  .block_shopkeepers--text h3 {
+    font-size: 2rem;
+    width: 15rem;
+  }
+  .block_shopkeepers--text span {
+    font-size: 0.9rem;
+  }
+  .block_shopkeepers--text p {
+    font-size: 1.2rem;
+  }
+  .block_shopkeepers--img img {
+    width: 23rem;
+  }
+}
+@media screen and (min-width: 900px) {
   .block_shopkeepers {
     margin-top: 5rem;
   }
-  .block_shopkeepers--background {
-    width: 70%;
-    top: 9rem;
+  .block_shopkeepers--text {
+    margin-right: 2rem;
+    width: 17rem;
+    margin-top: 23.5rem;
   }
-  .block_shopkeepers--united-img img {
-    width: 16rem;
+  .block_shopkeepers--text-background {
+    bottom: -7rem;
+    left: -8rem;
+    width: 33rem;
   }
-  .block_shopkeepers--united-text {
-    width: 14rem;
+  .block_shopkeepers--text h3 {
+    width: 17rem;
+  }
+  .block_shopkeepers--img img {
+    width: 28.5rem;
   }
 }
-@media screen and (min-width: 620px) {
-  .block_shopkeepers--background {
-    width: 60%;
-    top: 6rem;
-    left: 4rem;
+@media screen and (min-width: 1000px) {
+  .block_shopkeepers--text {
+    margin-right: 5rem;
+    margin-top: 27rem;
   }
-  .block_shopkeepers--united-text {
-    width: 14rem;
+  .block_shopkeepers--text-background {
+    bottom: -9rem;
+    left: -11rem;
+    width: 40rem;
+  }
+  .block_shopkeepers--text p {
+    padding-top: 2rem;
+  }
+  .block_shopkeepers--img img {
+    width: 32rem;
   }
 }
 @keyframes appearNavbar {
@@ -906,7 +983,7 @@
 }
 
 body {
-  max-width: 1300px !important;
+  max-width: 1250px !important;
   margin: auto;
 }
 
