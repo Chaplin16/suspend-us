@@ -723,7 +723,7 @@
     outline-offset: 10px;
   }
   .block_position--search h3 {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
   .block_position--search p {
     font-size: 1.1rem;
@@ -834,7 +834,7 @@
     width: 27rem;
   }
   .block_mission--united-text h3 {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
   .block_mission--united-text p {
     font-size: 1.2rem;
@@ -966,7 +966,7 @@
     width: 31rem;
   }
   .block_shopkeepers--text h3 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     width: 15rem;
   }
   .block_shopkeepers--text span {
@@ -1086,7 +1086,7 @@
     row-gap: 2rem;
   }
   .block_press--text h3 {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
   .block_press--text h3 img {
     width: 20px;
