@@ -90,6 +90,39 @@
     @include button;
 } 
 
+//button ready together? HTML line 222 to 226
+.block_readyTogether--text-button{
+    position: relative;
+    img{
+        position: absolute;
+        width:15px;
+        top: 6px;//
+        left:4px;
+    }
+    input{
+        border:2px solid $green;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        font-size: 0.7rem;
+        max-width: 40%;
+        padding: 5px 40px 5px 20px; //
+    }
+    button{
+        position: absolute;
+        bottom: 0;
+        right: 0rem;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        padding: 5px 15px;  //
+        background-color: $blue;
+        border: 2px solid $green;
+        color: #fff;
+        font-size: 0.7rem;
+    }
+}
+
 
 @media screen and (min-width: 490px){
     .block_position--search-button{
@@ -110,6 +143,17 @@
         position: absolute; 
         right: 0;
         top: 5rem;
+    }
+    .block_readyTogether--text-button{
+        margin-top:10px;
+    }
+    .block_readyTogether--text-button{
+        input{
+            padding: 6px 65px 6px 25px; //
+        }
+        button{
+            padding: 6px 15px; 
+        }
     }
 }
 
