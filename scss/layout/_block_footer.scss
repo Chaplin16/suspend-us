@@ -1,2 +1,12 @@
 // section block_footer HTML line 232 to 275
 // ADD div copyright HTML line 275 to 273
+
+
+.copyright{
+    background-color: $dark-blue;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.9rem;
+}

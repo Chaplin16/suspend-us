@@ -1263,11 +1263,17 @@
   }
 }
 @media screen and (min-width: 750px) {
+  .block_readyTogether {
+    margin-top: 5rem;
+  }
   .block_readyTogether--text h3 {
     font-size: 1.7rem;
   }
 }
 @media screen and (min-width: 1000px) {
+  .block_readyTogether {
+    margin-top: 7rem;
+  }
   .block_readyTogether--text h3 {
     font-size: 2rem;
   }
@@ -1280,6 +1286,15 @@
     font-size: 2.2rem;
   }
 }
+.copyright {
+  background-color: #00384c;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
 @keyframes appearNavbar {
   0% {
     transform: translateY(-250px);
