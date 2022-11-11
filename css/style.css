@@ -427,9 +427,11 @@
   position: absolute;
   top: 0rem;
   left: 1rem;
-  outline: 1px dashed rgba(1, 181, 98, 0.4);
+  outline: 1px dashed rgba(1, 181, 98, 0.3);
   outline-offset: 8px;
   border-radius: 50%;
+  outline-style: dashed;
+  outline-width: 2px;
 }
 .block_presentation--united {
   display: flex;
@@ -478,9 +480,11 @@
   height: auto;
   object-fit: contain;
   z-index: 30;
-  outline: 1px dashed rgba(0, 90, 129, 0.4);
+  outline: 1px dashed rgba(0, 90, 129, 0.3);
   outline-offset: 0px;
   border-radius: 50%;
+  outline-style: dashed;
+  outline-width: 2px;
 }
 .block_presentation--united-working-text h2 {
   font-size: 0.9rem;
@@ -505,21 +509,11 @@
 .block_presentation--united-working-text ul li:nth-of-type(3) img {
   width: 11px;
 }
-
-.cercle {
+.block_presentation--cercle img {
   position: absolute;
-  background-color: transparent;
-  top: 3rem;
-  left: -3rem;
-  width: 90%;
-  height: 50vh;
-  border-top-right-radius: 50%;
-  border-top-left-radius: 40%;
-  border-bottom-right-radius: 50%;
-  outline: 1px dashed rgba(0, 90, 129, 0.4);
-  outline-offset: 0px;
-  border-radius: 50%;
-  z-index: -1;
+  top: 12vh;
+  left: -25vw;
+  width: 93vw;
 }
 
 @media screen and (min-width: 400px) {
@@ -541,11 +535,6 @@
   }
   .block_presentation--united-working-img {
     width: 120px;
-  }
-
-  .cercle {
-    height: 55vh;
-    top: 6rem;
   }
 }
 @media screen and (min-width: 490px) {
@@ -571,10 +560,8 @@
   .block_presentation--united-working ul {
     width: 12rem;
   }
-
-  .cercle {
-    width: 83%;
-    top: 8rem;
+  .block_presentation--cercle img {
+    width: 100vw !important;
   }
 }
 @media screen and (min-width: 600px) {
@@ -583,12 +570,8 @@
     width: 17rem;
   }
 
-  .cercle {
-    border-top-left-radius: 45%;
-    top: 5rem;
-    left: -10rem;
-    height: 65vh;
-    width: 95%;
+  .block_presentation--cercle img {
+    width: 95vw;
   }
 }
 @media screen and (min-width: 750px) {
@@ -621,23 +604,15 @@
   .block_presentation--united-working h2 {
     font-size: 1.7rem;
   }
-
-  .cercle {
-    top: 11rem;
+  .block_presentation--cercle img {
+    top: 15vh;
+    width: 100vw;
   }
 }
 @media screen and (min-width: 850px) {
-  .cercle {
-    top: 13rem;
-    height: 80vh;
-    width: 90%;
-  }
-}
-@media screen and (min-width: 1000px) {
-  .cercle {
-    top: 15rem;
-    height: 95vh;
-    width: 85%;
+  .block_presentation--cercle img {
+    top: 20vh;
+    max-width: 1250px;
   }
 }
 @media screen and (min-width: 1100px) {
@@ -673,28 +648,31 @@
   .block_presentation--united-working ul li:nth-child(3) img {
     width: 23px;
   }
-
-  .cercle {
-    height: 118vh;
-  }
 }
 @media screen and (min-width: 1250px) {
   .block_presentation--united-gift {
     column-gap: 7.5%;
+  }
+
+  .block_presentation--cercle img {
+    left: -20vw;
   }
 }
 .block_position {
   display: flex;
   align-items: flex-end;
   column-gap: 0.5rem;
+  margin-top: 2rem;
 }
 .block_position--card iframe {
   width: 9rem;
   height: 9rem;
   z-index: 10;
+  outline: 1px dashed rgba(0, 90, 129, 0.3);
+  outline-offset: 0px;
   border-radius: 50%;
-  outline: 1px dashed rgba(0, 90, 129, 0.4);
-  outline-offset: 7px;
+  outline-style: dashed;
+  outline-width: 2px;
 }
 .block_position--search h3 {
   color: #005a81;
@@ -707,9 +685,6 @@
 }
 
 @media screen and (min-width: 400px) {
-  .block_position {
-    margin-top: 1rem;
-  }
   .block_position--card iframe {
     width: 11rem;
     height: 11rem;
@@ -737,7 +712,7 @@
 @media screen and (min-width: 600px) {
   .block_position {
     margin-top: 3.5rem;
-    column-gap: 3rem;
+    column-gap: 7rem;
     align-items: center;
   }
 }
@@ -745,7 +720,7 @@
   .block_position {
     margin-top: 7rem;
     align-items: center;
-    column-gap: 5rem;
+    column-gap: 15%;
   }
   .block_position--card iframe {
     width: 24rem;
@@ -807,9 +782,11 @@
 }
 .block_mission--united-img img {
   width: 10rem;
-  outline: 1px dashed rgba(0, 90, 129, 0.4);
+  outline: 1px dashed rgba(0, 90, 129, 0.3);
   outline-offset: 0px;
   border-radius: 50%;
+  outline-style: dashed;
+  outline-width: 2px;
 }
 .block_mission--united-text {
   width: 15rem;
@@ -869,7 +846,6 @@
 }
 @media screen and (min-width: 900px) {
   .block_mission--united {
-    column-gap: 3rem;
     vertical-align: bottom;
     height: 40vh;
   }
@@ -888,11 +864,12 @@
 
   .block_mission--background {
     top: -8.5rem;
+    left: 2rem;
     max-width: 1200px;
   }
 
   .block_mission--united {
-    height: 53vh;
+    height: 55vh;
   }
   .block_mission--united-text p {
     font-size: 1.4rem;
@@ -919,9 +896,11 @@
   left: -4.5rem;
   width: 190%;
   z-index: -10;
-  outline: 1px dashed rgba(1, 181, 98, 0.4);
+  outline: 1px dashed rgba(1, 181, 98, 0.3);
   outline-offset: 8px;
   border-radius: 50%;
+  outline-style: dashed;
+  outline-width: 2px;
 }
 .block_shopkeepers--text h3 {
   font-size: 0.9rem;

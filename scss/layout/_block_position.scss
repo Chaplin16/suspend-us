@@ -4,13 +4,12 @@
     display: flex;
     align-items: flex-end;
     column-gap: 0.5rem;
+    margin-top:2rem;
     &--card iframe{
         width: 9rem;
         height:9rem;
         z-index:10;
-        border-radius: 50%;
-        outline: 1px dashed rgba(0, 90, 129,0.4);
-        outline-offset: 7px;
+        @include border-blue;
     }
     &--search{
         h3{
@@ -28,7 +27,6 @@
 
 @media screen and (min-width: 400px){
     .block_position {
-        margin-top:1rem;
         &--card iframe{
             width: 11rem;
             height: 11rem;
@@ -59,7 +57,7 @@
 @media screen and (min-width: 600px){
     .block_position {
         margin-top: 3.5rem;
-        column-gap: 3rem;
+        column-gap: 7rem;
         align-items: center;
     }
 }
@@ -68,7 +66,7 @@
     .block_position{
         margin-top: 7rem;
         align-items: center;
-        column-gap: 5rem;
+        column-gap: 15%;
         &--card iframe{
             width: 24rem;
             height:24rem;
