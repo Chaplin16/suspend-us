@@ -1211,6 +1211,7 @@
 }
 .block_readyTogether--img img {
   width: 140px;
+  z-index: 3000 !important;
 }
 .block_readyTogether--text h3 {
   font-size: 0.9rem;
@@ -1266,9 +1267,80 @@
   }
 }
 .block_footer {
-  width: 100%;
-  max-width: 1250px !important;
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 6rem 0 2rem 5%;
+  margin-top: -4rem;
+  row-gap: 1rem;
+  background-color: #005a81;
+  outline: 1px dashed rgba(1, 181, 98, 0.3);
+  outline-offset: 8px;
+  border-radius: 50%;
+  outline-style: dashed;
+  outline-width: 2px;
+  border-top-left-radius: 135px !important;
+  border-top-right-radius: 135px !important;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  z-index: -20;
+}
+.block_footer h5, .block_footer li a {
+  color: #fff !important;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+.block_footer li a {
+  font-weight: 300 !important;
+}
+.block_footer--contact {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+.block_footer--contact-social-networks {
+  display: flex;
+  column-gap: 1rem;
+}
+.block_footer--contact-social-networks h4 {
+  color: #fff;
+}
+.block_footer--contact-social-networks img {
+  width: 25px;
+  height: 25px;
+  padding: 8px;
+  background-color: #00384c;
+  border-radius: 8px;
+  color: #fff;
+}
+.block_footer--contact-newsletter {
+  display: flex;
+  align-items: flex-end;
+  column-gap: 1rem;
+}
+.block_footer--contact-newsletter img {
+  width: 50px;
+  height: auto;
+}
+.block_footer--contact-newsletter-registration {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.block_footer--contact-newsletter-registration input {
+  border-radius: 5px;
+  border: none;
+  padding: 4px 10px;
+  font-size: 0.7rem;
+}
+.block_footer--contact-newsletter-registration button {
+  background-color: #01b562;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 0.6rem;
+  font-weight: 600;
 }
 
 .copyright {
@@ -1310,10 +1382,17 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
+  list-style: none;
 }
 
 header,
 main {
+  width: 100%;
+  max-width: 1250px !important;
+  margin: auto;
+}
+
+footer {
   width: 100%;
   max-width: 1250px !important;
   margin: auto;
