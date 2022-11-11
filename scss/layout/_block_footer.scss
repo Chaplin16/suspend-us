@@ -1,6 +1,14 @@
 // section block_footer HTML line 232 to 275
 // ADD div copyright HTML line 275 to 273
 
+.block_footer{
+    width: 100%;
+    max-width: 1250px!important;
+    margin:auto;
+}
+
+
+
 
 .copyright{
     background-color: $dark-blue;
@@ -8,5 +16,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
+    padding:1rem;
+    row-gap:0.5rem;
+    span{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 750px){
+    .copyright{
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 5px;
+        font-size: $writingSizePhone;
+        span{
+            display: block;
+        }
+    }
 }

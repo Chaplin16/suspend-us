@@ -1286,15 +1286,37 @@
     font-size: 2.2rem;
   }
 }
+.block_footer {
+  width: 100%;
+  max-width: 1250px !important;
+  margin: auto;
+}
+
 .copyright {
   background-color: #00384c;
   color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
+  padding: 1rem;
+  row-gap: 0.5rem;
+}
+.copyright span {
+  display: none;
 }
 
+@media screen and (min-width: 750px) {
+  .copyright {
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 5px;
+    font-size: 0.9rem;
+  }
+  .copyright span {
+    display: block;
+  }
+}
 @keyframes appearNavbar {
   0% {
     transform: translateY(-250px);
@@ -1311,7 +1333,8 @@
   text-decoration: none;
 }
 
-body {
+header,
+main {
   width: 100%;
   max-width: 1250px !important;
   margin: auto;
