@@ -1220,21 +1220,23 @@
 }
 .block_readyTogether--img img {
   width: 140px;
-  z-index: 3000 !important;
 }
 .block_readyTogether--text h3 {
   font-size: 0.9rem;
-  color: #00384c;
+  color: #fff;
   margin-bottom: 5px;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 380px) {
   .block_readyTogether {
     column-gap: 1rem;
     padding-left: 5%;
   }
   .block_readyTogether--text {
     margin-top: 4%;
+  }
+  .block_readyTogether--text h3 {
+    color: #00384c;
   }
 }
 @media screen and (min-width: 500px) {
@@ -1290,11 +1292,16 @@
 }
 .block_footer--background {
   position: absolute;
-  bottom: 8rem;
-  right: 0;
+  bottom: 0rem;
+  right: 0rem;
   left: 0rem;
-  z-index: -30;
-  width: 300px !important;
+  z-index: -1;
+  width: 100% !important;
+  object-fit: cover;
+  height: 105%;
+}
+.block_footer--background-full {
+  display: none;
 }
 .block_footer h5, .block_footer li a {
   color: rgb(255, 255, 255) !important;
@@ -1377,6 +1384,22 @@
   .block_footer h5, .block_footer li a {
     font-size: 0.8rem;
   }
+  .block_footer--background {
+    height: 105%;
+    min-height: 515px;
+  }
+}
+@media screen and (min-width: 680px) {
+  .block_footer--background {
+    top: -7rem;
+    min-height: 550px;
+  }
+}
+@media screen and (min-width: 697px) {
+  .block_footer--background {
+    min-height: 430px;
+    object-fit: fill;
+  }
 }
 @media screen and (min-width: 750px) {
   .block_footer {
@@ -1396,6 +1419,10 @@
   }
   .block_footer--contact-newsletter {
     align-items: center !important;
+  }
+  .block_footer--background {
+    top: -9rem;
+    min-height: 440px;
   }
 
   .copyright {
@@ -1429,6 +1456,10 @@
   .block_footer--contact-newsletter-registration-btn input {
     width: 15rem;
   }
+  .block_footer--background {
+    top: -12rem;
+    min-height: 480px;
+  }
 }
 @media screen and (min-width: 900px) {
   .block_footer--contact {
@@ -1438,6 +1469,18 @@
 @media screen and (min-width: 1200px) {
   .block_footer--contact {
     padding-right: 15%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .block_footer--background {
+    display: none;
+  }
+  .block_footer--background-full {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: -14rem;
+    left: 0rem;
   }
 }
 @keyframes appearNavbar {
