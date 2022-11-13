@@ -481,7 +481,7 @@
   object-fit: contain;
   z-index: 30;
   outline: 1px dashed rgba(0, 90, 129, 0.3);
-  outline-offset: 0px;
+  outline-offset: 5px;
   border-radius: 50%;
   outline-style: dashed;
   outline-width: 2px;
@@ -661,15 +661,15 @@
 .block_position {
   display: flex;
   align-items: flex-end;
-  column-gap: 0.5rem;
+  column-gap: 10px;
   margin-top: 2rem;
 }
 .block_position--card iframe {
-  width: 9rem;
-  height: 9rem;
+  width: 8rem;
+  height: 8rem;
   z-index: 10;
   outline: 1px dashed rgba(0, 90, 129, 0.3);
-  outline-offset: 0px;
+  outline-offset: 5px;
   border-radius: 50%;
   outline-style: dashed;
   outline-width: 2px;
@@ -783,7 +783,7 @@
 .block_mission--united-img img {
   width: 10rem;
   outline: 1px dashed rgba(0, 90, 129, 0.3);
-  outline-offset: 0px;
+  outline-offset: 5px;
   border-radius: 50%;
   outline-style: dashed;
   outline-width: 2px;
@@ -1268,11 +1268,14 @@
 }
 .block_footer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
   align-items: flex-start;
   padding: 6rem 0 2rem 5%;
   margin-top: -4rem;
-  row-gap: 1rem;
+  row-gap: 3rem;
+  column-gap: 2rem;
   background-color: #005a81;
   outline: 1px dashed rgba(1, 181, 98, 0.3);
   outline-offset: 8px;
@@ -1286,17 +1289,21 @@
   z-index: -20;
 }
 .block_footer h5, .block_footer li a {
-  color: #fff !important;
+  color: rgb(255, 255, 255) !important;
   font-size: 0.7rem;
-  font-weight: 600;
 }
 .block_footer li a {
   font-weight: 300 !important;
+}
+.block_footer h5 {
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 .block_footer--contact {
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
+  align-items: center !important;
 }
 .block_footer--contact-social-networks {
   display: flex;
@@ -1304,6 +1311,7 @@
 }
 .block_footer--contact-social-networks h4 {
   color: #fff;
+  text-align: right;
 }
 .block_footer--contact-social-networks img {
   width: 25px;
@@ -1325,12 +1333,12 @@
 .block_footer--contact-newsletter-registration {
   display: flex;
   flex-direction: column;
-  row-gap: 8px;
 }
 .block_footer--contact-newsletter-registration input {
   border-radius: 5px;
   border: none;
   padding: 4px 10px;
+  margin: 0 5px 5px 0;
   font-size: 0.7rem;
 }
 .block_footer--contact-newsletter-registration button {
@@ -1345,7 +1353,7 @@
 
 .copyright {
   background-color: #00384c;
-  color: #fff;
+  color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1357,7 +1365,31 @@
   display: none;
 }
 
+@media screen and (min-width: 500px) {
+  .block_footer h5, .block_footer li a {
+    font-size: 0.8rem;
+  }
+}
 @media screen and (min-width: 750px) {
+  .block_footer {
+    height: 10rem;
+  }
+  .block_footer--suspend-us {
+    align-self: flex-end;
+  }
+  .block_footer--use {
+    align-self: center;
+    margin-bottom: 7px;
+  }
+  .block_footer--contact {
+    row-gap: 2.5rem;
+    margin-left: auto !important;
+    padding-right: 5%;
+  }
+  .block_footer--contact-newsletter {
+    align-items: center !important;
+  }
+
   .copyright {
     flex-direction: row;
     justify-content: center;
@@ -1366,6 +1398,38 @@
   }
   .copyright span {
     display: block;
+  }
+}
+@media screen and (min-width: 930px) {
+  .block_footer--contact {
+    padding-right: 2%;
+    align-items: flex-start !important;
+  }
+  .block_footer--contact-social-networks {
+    padding-left: 1.5rem;
+    column-gap: 1.4rem;
+  }
+  .block_footer--contact-social-networks h4 {
+    font-size: 1.1rem;
+  }
+  .block_footer--contact-newsletter {
+    column-gap: 1.7rem;
+  }
+  .block_footer--contact-newsletter img {
+    width: 70px;
+  }
+  .block_footer--contact-newsletter-registration-btn input {
+    width: 15rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  .block_footer--contact {
+    padding-right: 10%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .block_footer--contact {
+    padding-right: 15%;
   }
 }
 @keyframes appearNavbar {

@@ -16,7 +16,7 @@
 
 @mixin border-blue{
     outline: 1px dashed rgba(0, 90, 129,0.3);
-    outline-offset: 0px;
+    outline-offset: 5px;
     border-radius: 50%;
     outline-style: dashed;
     outline-width: 2px;

@@ -3,11 +3,11 @@
 .block_position {
     display: flex;
     align-items: flex-end;
-    column-gap: 0.5rem;
+    column-gap: 10px;
     margin-top:2rem;
     &--card iframe{
-        width: 9rem;
-        height:9rem;
+        width: 8rem;
+        height:8rem;
         z-index:10;
         @include border-blue;
     }
