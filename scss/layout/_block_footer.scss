@@ -2,6 +2,15 @@
 // ADD div copyright HTML line 275 to 273
 
 .block_footer{
+    position: relative;
+    &--background{
+        position: absolute;
+        bottom: -3rem;
+        right: 0;
+        left: -15rem;
+        z-index: -30;
+        width: 200%;
+    }
     display: flex;
     flex-direction: row;
     justify-content:  flex-start;
@@ -11,13 +20,6 @@
     margin-top: -4rem;
     row-gap: 3rem;
     column-gap:2rem;
-    background-color: $blue;
-    @include border-green;
-    border-top-left-radius: 135px !important;
-    border-top-right-radius: 135px!important;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-    z-index:-20;
     h5, li a{
         color:rgb(255, 255, 255)!important;
         font-size: 0.7rem;

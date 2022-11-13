@@ -427,7 +427,7 @@
   position: absolute;
   top: 0rem;
   left: 1rem;
-  outline: 1px dashed rgba(1, 181, 98, 0.3);
+  outline: 1px dashed rgba(1, 181, 98, 0.5);
   outline-offset: 8px;
   border-radius: 50%;
   outline-style: dashed;
@@ -480,7 +480,7 @@
   height: auto;
   object-fit: contain;
   z-index: 30;
-  outline: 1px dashed rgba(0, 90, 129, 0.3);
+  outline: 1px dashed rgba(0, 90, 129, 0.5);
   outline-offset: 5px;
   border-radius: 50%;
   outline-style: dashed;
@@ -668,7 +668,7 @@
   width: 8rem;
   height: 8rem;
   z-index: 10;
-  outline: 1px dashed rgba(0, 90, 129, 0.3);
+  outline: 1px dashed rgba(0, 90, 129, 0.5);
   outline-offset: 5px;
   border-radius: 50%;
   outline-style: dashed;
@@ -782,7 +782,7 @@
 }
 .block_mission--united-img img {
   width: 10rem;
-  outline: 1px dashed rgba(0, 90, 129, 0.3);
+  outline: 1px dashed rgba(0, 90, 129, 0.5);
   outline-offset: 5px;
   border-radius: 50%;
   outline-style: dashed;
@@ -896,7 +896,7 @@
   left: -4.5rem;
   width: 190%;
   z-index: -10;
-  outline: 1px dashed rgba(1, 181, 98, 0.3);
+  outline: 1px dashed rgba(1, 181, 98, 0.5);
   outline-offset: 8px;
   border-radius: 50%;
   outline-style: dashed;
@@ -1267,6 +1267,7 @@
   }
 }
 .block_footer {
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -1276,17 +1277,14 @@
   margin-top: -4rem;
   row-gap: 3rem;
   column-gap: 2rem;
-  background-color: #005a81;
-  outline: 1px dashed rgba(1, 181, 98, 0.3);
-  outline-offset: 8px;
-  border-radius: 50%;
-  outline-style: dashed;
-  outline-width: 2px;
-  border-top-left-radius: 135px !important;
-  border-top-right-radius: 135px !important;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-  z-index: -20;
+}
+.block_footer--background {
+  position: absolute;
+  bottom: -3rem;
+  right: 0;
+  left: -15rem;
+  z-index: -30;
+  width: 200%;
 }
 .block_footer h5, .block_footer li a {
   color: rgb(255, 255, 255) !important;
