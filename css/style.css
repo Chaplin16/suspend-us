@@ -514,6 +514,7 @@
   top: 12vh;
   left: -25vw;
   width: 93vw;
+  z-index: -30;
 }
 
 @media screen and (min-width: 400px) {
@@ -660,9 +661,11 @@
 }
 .block_position {
   display: flex;
-  align-items: flex-end;
-  column-gap: 10px;
-  margin-top: 2rem;
+  justify-content: center;
+  row-gap: 1rem;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+  margin-top: 6rem;
 }
 .block_position--card iframe {
   width: 8rem;
@@ -673,6 +676,7 @@
   border-radius: 50%;
   outline-style: dashed;
   outline-width: 2px;
+  z-index: 10;
 }
 .block_position--search h3 {
   color: #005a81;
@@ -685,6 +689,9 @@
 }
 
 @media screen and (min-width: 400px) {
+  .block_position {
+    align-items: center;
+  }
   .block_position--card iframe {
     width: 11rem;
     height: 11rem;
@@ -1206,7 +1213,9 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 2rem;
   margin-top: 1rem;
 }
 .block_readyTogether--img img {
@@ -1221,6 +1230,7 @@
 
 @media screen and (min-width: 400px) {
   .block_readyTogether {
+    column-gap: 1rem;
     padding-left: 5%;
   }
   .block_readyTogether--text {
@@ -1280,11 +1290,11 @@
 }
 .block_footer--background {
   position: absolute;
-  bottom: -3rem;
+  bottom: 8rem;
   right: 0;
-  left: -15rem;
+  left: 0rem;
   z-index: -30;
-  width: 200%;
+  width: 300px !important;
 }
 .block_footer h5, .block_footer li a {
   color: rgb(255, 255, 255) !important;

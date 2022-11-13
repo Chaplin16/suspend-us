@@ -5,11 +5,11 @@
     position: relative;
     &--background{
         position: absolute;
-        bottom: -3rem;
+        bottom: 8rem;
         right: 0;
-        left: -15rem;
+        left: 0rem;
         z-index: -30;
-        width: 200%;
+        width: 300px!important;
     }
     display: flex;
     flex-direction: row;
