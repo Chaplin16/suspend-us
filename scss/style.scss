@@ -23,14 +23,14 @@
 }
 
 header,
-main{
+main,
+.block_footer{
     width: 100%;
     max-width: 1250px!important;
     margin:auto;
+}
+footer{
+    margin:auto;
+
 }
 
-footer{
-    width: 100%;
-    max-width: 1250px!important;
-    margin:auto;
-}
