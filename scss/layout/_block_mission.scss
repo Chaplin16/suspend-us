@@ -81,12 +81,13 @@
 
 @media screen and (min-width: 900px){
     .block_mission--united{
-
         vertical-align: bottom;
         height:40vh;
+        padding-left:10px;
         &-img img{
-            width:23rem;
+            width:20rem;
             margin-bottom:-6rem;
+            
         }
         &-text{
             width:30rem;

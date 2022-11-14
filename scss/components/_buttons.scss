@@ -170,6 +170,7 @@
     .block_position--search-button{
         & input {
             font-size:0.9rem;
+            width: 11rem;
         }
         & button{
             font-size: $writingSizePhone;
@@ -210,6 +211,10 @@
     .selectChoice{
         top:7rem;
     }
+    .block_position--search-button input{
+        width: 14rem;
+    }
+
     .block_shopkeepers--text {
         &-btn1{
             margin-top:1rem;
@@ -267,7 +272,7 @@
             padding: 11px 45px;
             margin-top: 1rem; 
             font-size: $writingSizeTablet;
-            width:19rem;
+            width:16rem;
             max-width: 45%;
         }
         img{
