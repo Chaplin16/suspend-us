@@ -1059,6 +1059,7 @@
 }
 .block_press img {
   padding: 0 5px;
+  height: auto;
 }
 .block_press--text {
   display: flex;
