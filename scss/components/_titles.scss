@@ -1,0 +1,29 @@
+//h2 in the block_presentation HTML line 80
+.block_presentation--united-gift-text h2{
+    font-size: 1.4rem;
+    color: $dark-blue;
+    font-weight: 300;
+}
+
+.block_presentation--united-working-text h2{
+    @include title;
+}
+
+
+@media screen and (min-width: 490px){
+    .block_presentation--united-gift-text h2{
+        font-size: 1.7rem;
+    }
+    .block_presentation--united-working-text h2{
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (min-width: 700px){
+    .block_presentation--united-gift-text h2{
+        font-size: 2.5rem;
+    }
+    .block_presentation--united-working-text h2{
+        font-size: 1.8rem;
+    }
+}
