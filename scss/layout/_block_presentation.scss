@@ -4,17 +4,17 @@
 .block_presentation{
     position: relative;
     &--background{
-        width:95%;
+        width:100%;
         z-index:-10;
         position: absolute;
-        top:0;
-        left:1rem;
+        top:1rem;
+        left:0;
         @include border-green;
     }
     &--united{
         display: flex;
         flex-direction: column;
-        row-gap: 1rem;
+        row-gap: 10px;
         &-gift{
             display:flex;
             align-items: center;
@@ -28,7 +28,7 @@
             &-text{
                 margin-top:2.5rem;
                 h2{
-                    font-size: 1rem;
+                    font-size: 0.9rem;
                     color: $blue;
                     & img{
                         width:10px;
@@ -52,7 +52,7 @@
             align-items: flex-start; 
             z-index:10;
             &-img{
-                width: 80px;
+                width: 70px;
                 height:auto;
                 object-fit: contain;
                 z-index:30;
@@ -60,13 +60,13 @@
             }
             &-text{
                 h2{
-                    font-size: 0.9rem;
+                    font-size: 0.8rem;
                     color: $blue;
                 }
                 ul{
                     list-style: none;
                     font-size: 0.7rem;
-                    width: 9rem;
+                    width: 9.5rem;
                     color:rgb(94, 93, 93);
                     span{
                         color: $blue;

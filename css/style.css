@@ -427,11 +427,11 @@
   position: relative;
 }
 .block_presentation--background {
-  width: 95%;
+  width: 100%;
   z-index: -10;
   position: absolute;
-  top: 0;
-  left: 1rem;
+  top: 1rem;
+  left: 0;
   outline: 1px dashed rgba(1, 181, 98, 0.5);
   outline-offset: 8px;
   border-radius: 50%;
@@ -441,7 +441,7 @@
 .block_presentation--united {
   display: flex;
   flex-direction: column;
-  row-gap: 1rem;
+  row-gap: 10px;
 }
 .block_presentation--united-gift {
   display: flex;
@@ -458,7 +458,7 @@
   margin-top: 2.5rem;
 }
 .block_presentation--united-gift-text h2 {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #005a81;
 }
 .block_presentation--united-gift-text h2 img {
@@ -481,7 +481,7 @@
   z-index: 10;
 }
 .block_presentation--united-working-img {
-  width: 80px;
+  width: 70px;
   height: auto;
   object-fit: contain;
   z-index: 30;
@@ -492,13 +492,13 @@
   outline-width: 2px;
 }
 .block_presentation--united-working-text h2 {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: #005a81;
 }
 .block_presentation--united-working-text ul {
   list-style: none;
   font-size: 0.7rem;
-  width: 9rem;
+  width: 9.5rem;
   color: rgb(94, 93, 93);
 }
 .block_presentation--united-working-text ul span {
@@ -694,14 +694,15 @@
 .block_position {
   display: flex;
   justify-content: center;
+  align-items: center;
   row-gap: 1rem;
   flex-wrap: wrap;
   column-gap: 2rem;
   margin-top: 2rem;
 }
 .block_position--card iframe {
-  width: 10rem;
-  height: 10rem;
+  width: 11rem;
+  height: 11rem;
   z-index: 10;
   outline: 1px dashed rgba(0, 90, 129, 0.5);
   outline-offset: 5px;
@@ -722,15 +723,11 @@
 }
 
 @media screen and (min-width: 400px) {
-  .block_position {
-    align-items: flex-end;
-  }
   .block_position--card iframe {
-    width: 11rem;
-    height: 11rem;
+    width: 17rem;
+    height: 17rem;
   }
-}
-@media screen and (min-width: 480px) {
+
   .block_position--search {
     margin-left: -10px;
   }
@@ -741,7 +738,7 @@
     font-size: 0.85rem;
   }
 }
-@media screen and (min-width: 590px) {
+@media screen and (min-width: 500px) {
   .block_position {
     margin-top: 20%;
     align-items: center;
@@ -1542,6 +1539,10 @@ main,
 
 footer {
   margin: auto;
+}
+
+h2, h3 {
+  font-family: "Damion", cursive;
 }
 
 /*# sourceMappingURL=style.css.map */
