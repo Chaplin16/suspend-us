@@ -27,3 +27,24 @@
     font-weight: 300;
     font-size: 1rem;
 }
+
+@mixin inputBtn{
+    border:2px solid $green;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    font-size: 0.7rem;
+    max-width: 40%;
+}
+
+@mixin btnWithInput{
+    position: absolute;
+    bottom: 0;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: $blue;
+    border: 2px solid $green;
+    color: #fff;
+    font-size: 0.7rem;
+}

@@ -51,16 +51,16 @@
 .block_position--search-button button {
   position: absolute;
   bottom: 0;
-  right: 0.5rem;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
-  padding: 6px 5px;
   background-color: #005a81;
   border: 2px solid #01b562;
   color: #fff;
   font-size: 0.7rem;
+  right: 0.5rem;
+  padding: 6px 5px;
 }
 
 .block_mission--united-text button {
@@ -118,16 +118,16 @@
 .block_readyTogether--text-button button {
   position: absolute;
   bottom: 0;
-  right: 0rem;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
-  padding: 5px 15px;
   background-color: #005a81;
   border: 2px solid #01b562;
   color: #fff;
   font-size: 0.7rem;
+  right: 0rem;
+  padding: 5px 15px;
 }
 
 .block_footer--contact-newsletter-registration-btn input {
@@ -184,10 +184,6 @@
     padding-left: 25px;
   }
 
-  .block_presentation--united-gift-text button {
-    font-size: 0.9rem;
-  }
-
   .block_position--search-button input {
     font-size: 0.9rem;
     width: 11rem;
@@ -199,15 +195,11 @@
     width: 22px;
   }
 
-  .block_mission--united-text button {
-    font-size: 0.9rem;
-  }
-
-  .block_shopkeepers--text-btn1, .block_shopkeepers--text-btn2 {
-    font-size: 0.9rem;
-  }
-
-  .block_press--text button {
+  .block_presentation--united-gift-text button,
+.block_mission--united-text button,
+.block_shopkeepers--text-btn1,
+.block_shopkeepers--text-btn2,
+.block_press--text button {
     font-size: 0.9rem;
   }
 
@@ -242,7 +234,10 @@
   }
 }
 @media screen and (min-width: 1000px) {
-  .block_presentation--united-gift-text button {
+  .block_presentation--united-gift-text button,
+.block_mission--united-text button,
+.block_press--text-button-btn1,
+.block_press--text-button-btn2 {
     padding: 12px 15px;
   }
 
@@ -250,18 +245,6 @@
     padding-left: 1.5rem !important;
     padding-right: 1.5rem;
     right: -0.5rem !important;
-  }
-
-  .block_mission--united-text button {
-    padding: 12px 15px;
-  }
-
-  .block_shopkeepers--text-btn1, .block_shopkeepers--text-btn2 {
-    padding: 12px 15px;
-  }
-
-  .block_press--text button {
-    padding: 12px 15px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -277,7 +260,7 @@
 
   .block_presentation--united-gift-text button {
     padding: 10px 20px;
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
   .block_position--search-button button {
