@@ -90,7 +90,7 @@
     @include button;
 } 
 
-//button ready together? HTML line 222 to 226
+//button readyTogether HTML line 222 to 226
 .block_readyTogether--text-button{
     position: relative;
     img{
@@ -123,6 +123,25 @@
     }
 }
 
+//button footer below newsletter HTML line 275 to 278
+.block_footer--contact-newsletter-registration-btn{
+    input{
+        border-radius: 5px;
+        border: none;
+        padding: 4px 10px;
+        margin: 0 5px 5px 0;
+        font-size: 0.7rem;
+    }
+    button{
+        background-color: $green;
+        border: none;
+        padding: 5px;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 0.6rem;
+        font-weight: 600;
+    }
+}
 
 @media screen and (min-width: 490px){
     .block_position--search-button{
@@ -218,6 +237,11 @@
     .block_shopkeepers--text {
         &-btn1{
             margin-top:1rem;
+        }
+    }
+    .block_footer--contact-newsletter-registration-btn{
+        input{
+            width:13rem;
         }
     }
 }

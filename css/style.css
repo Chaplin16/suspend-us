@@ -130,6 +130,23 @@
   font-size: 0.7rem;
 }
 
+.block_footer--contact-newsletter-registration-btn input {
+  border-radius: 5px;
+  border: none;
+  padding: 4px 10px;
+  margin: 0 5px 5px 0;
+  font-size: 0.7rem;
+}
+.block_footer--contact-newsletter-registration-btn button {
+  background-color: #01b562;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+
 @media screen and (min-width: 490px) {
   .block_position--search-button img {
     width: 19px;
@@ -218,6 +235,10 @@
 
   .block_shopkeepers--text-btn1 {
     margin-top: 1rem;
+  }
+
+  .block_footer--contact-newsletter-registration-btn input {
+    width: 13rem;
   }
 }
 @media screen and (min-width: 1000px) {
@@ -430,7 +451,7 @@
   width: 100%;
   z-index: -10;
   position: absolute;
-  top: 1rem;
+  top: 0rem;
   left: 0;
   outline: 1px dashed rgba(1, 181, 98, 0.5);
   outline-offset: 8px;
@@ -447,12 +468,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  column-gap: 1rem;
+  column-gap: 5px;
   z-index: 10;
 }
 .block_presentation--united-gift-img {
-  width: 150px;
+  width: 180px;
   z-index: 30;
+  margin-top: -2rem;
 }
 .block_presentation--united-gift-text {
   margin-top: 2.5rem;
@@ -523,14 +545,12 @@
 }
 
 @media screen and (min-width: 400px) {
-  .block_presentation--united {
-    row-gap: 2rem;
-  }
   .block_presentation--united-gift {
     margin-top: -1rem;
   }
   .block_presentation--united-gift-img {
-    width: 180px;
+    width: 200px;
+    margin-top: 0rem;
   }
   .block_presentation--united-working {
     column-gap: 1rem;
@@ -546,9 +566,6 @@
 @media screen and (min-width: 490px) {
   .block_presentation {
     margin-top: 3rem;
-  }
-  .block_presentation--united {
-    row-gap: 0.5rem;
   }
   .block_presentation--united-gift {
     justify-content: flex-start;
@@ -1193,7 +1210,6 @@
 .block_footer {
   position: relative;
   display: flex;
-  flex-direction: row;
   justify-content: flex-start;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -1203,9 +1219,8 @@
 }
 .block_footer--background {
   position: absolute;
-  bottom: 0rem;
-  right: 0rem;
-  left: 0rem;
+  bottom: 0;
+  left: 0;
   z-index: -1;
   width: 100% !important;
   object-fit: cover;
@@ -1218,9 +1233,6 @@
   color: rgb(255, 255, 255) !important;
   font-size: 0.7rem;
 }
-.block_footer li a {
-  font-weight: 300 !important;
-}
 .block_footer h5 {
   font-weight: 600;
   margin-bottom: 10px;
@@ -1229,15 +1241,18 @@
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
-  align-items: center !important;
 }
 .block_footer--contact-social-networks {
   display: flex;
+  align-items: flex-end;
   column-gap: 1rem;
 }
 .block_footer--contact-social-networks h4 {
   color: #fff;
   text-align: right;
+  font-family: "Damion", cursive;
+  font-size: 1.1rem;
+  font-weight: 300;
 }
 .block_footer--contact-social-networks img {
   width: 25px;
@@ -1260,22 +1275,6 @@
   display: flex;
   flex-direction: column;
 }
-.block_footer--contact-newsletter-registration input {
-  border-radius: 5px;
-  border: none;
-  padding: 4px 10px;
-  margin: 0 5px 5px 0;
-  font-size: 0.7rem;
-}
-.block_footer--contact-newsletter-registration button {
-  background-color: #01b562;
-  border: none;
-  padding: 5px;
-  border-radius: 5px;
-  color: #fff;
-  font-size: 0.6rem;
-  font-weight: 600;
-}
 
 .copyright {
   background-color: #00384c;
@@ -1296,33 +1295,22 @@
     font-size: 0.8rem;
   }
   .block_footer--background {
-    height: 105%;
-    min-height: 515px;
+    height: 130%;
   }
 }
-@media screen and (min-width: 680px) {
+@media screen and (min-width: 600px) {
   .block_footer--background {
-    top: -7rem;
-    min-height: 550px;
+    top: -11rem;
+    height: 150%;
   }
 }
-@media screen and (min-width: 697px) {
+@media screen and (min-width: 700px) {
   .block_footer--background {
-    min-height: 430px;
-    object-fit: fill;
+    height: 180%;
+    top: -9rem;
   }
 }
 @media screen and (min-width: 750px) {
-  .block_footer {
-    height: 10rem;
-  }
-  .block_footer--suspend-us {
-    align-self: flex-end;
-  }
-  .block_footer--use {
-    align-self: center;
-    margin-bottom: 7px;
-  }
   .block_footer--contact {
     row-gap: 2.5rem;
     margin-left: auto !important;
@@ -1330,10 +1318,6 @@
   }
   .block_footer--contact-newsletter {
     align-items: center !important;
-  }
-  .block_footer--background {
-    top: -9rem;
-    min-height: 440px;
   }
 
   .copyright {
@@ -1363,9 +1347,6 @@
   }
   .block_footer--contact-newsletter img {
     width: 70px;
-  }
-  .block_footer--contact-newsletter-registration-btn input {
-    width: 15rem;
   }
   .block_footer--background {
     top: -12rem;
@@ -1415,7 +1396,6 @@
 header,
 main,
 .block_footer {
-  max-width: 100%;
   max-width: 1200px !important;
   margin: auto;
 }
