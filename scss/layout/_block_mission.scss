@@ -18,26 +18,15 @@
         &-text{
             margin:auto;
             width:70%;
-            max-width:27rem;
-            h3{
-                @include title;
-                padding-bottom: 1rem;   
-            }
+            max-width:26rem;
             p{
                 padding-bottom: 1rem;
+                font-size: 0.9rem;
                 &:last-of-type{
                     font-weight: 600;
                 }
             }
         } 
-    }
-}
-
-@media screen and (min-width: 400px){
-    .block_mission--united-text{
-        h3{
-            font-size: 1rem;
-        }
     }
 }
 
@@ -57,17 +46,16 @@
             justify-content: center;
             align-items: flex-end;
             column-gap:3%;
-            padding-top: 2rem;
+            padding-top: 5rem;
             &-img img{
-                width: 11rem;
+                width: 13rem;
             }
             &-text{
                 margin:0;
-                h3{
-                    font-size:1.7rem;
-                }
+                hyphens: auto;
+                width: 45%;
                 p{
-                    font-size:1.2rem;
+                    font-size:1rem;
                 }
             }
         }
@@ -87,14 +75,13 @@
     .block_mission{
         &--background{
         top:-7rem;
-        left:1rem;
+        left:3rem;
+        max-width: 90%;
         }
         &--united{
             margin-left:-5rem;
-            padding-top:5rem;
             &-text p{
-                width:33rem;
-                hyphens: auto;
+                width:28rem;
             }
         }
     }

@@ -4,23 +4,37 @@
     color: $dark-blue;
     font-weight: 300;
 }
-
 .block_presentation--united-working-text h2{
     @include title;
 }
 
-
-//h2 in the block_location HTML line 127
+//h3 in the block_location HTML line 127
 .block_position--search h3{
     @include title;
 }
+
+//h3 in the block_mission HTML line 147
+.block_mission--united-text h3{
+    @include title;
+    padding-bottom: 1rem;   
+}
+
+//h3 in the block_shopkeepers HTML line 171
+.block_shopkeepers--text h3 {
+    @include title;
+    color :#000!important;
+}
+
+
 
 @media screen and (min-width: 490px){
     .block_presentation--united-gift-text h2{
         font-size: 1.7rem;
     }
     .block_presentation--united-working-text h2,
-    .block_position--search h3{
+    .block_position--search h3,
+    .block_mission--united-text h3,
+    .block_shopkeepers--text h3{
         font-size: 1.4rem;
     }
 }
@@ -30,7 +44,9 @@
         font-size: 2.5rem;
     }
     .block_presentation--united-working-text h2,
-    .block_position--search h3{
-        font-size: 1.8rem;
+    .block_position--search h3,
+    .block_mission--united-text h3{
+        font-size: 2rem;
     }
 }
+

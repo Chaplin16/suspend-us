@@ -324,13 +324,27 @@
 .block_presentation--united-working-text h2 {
   color: #00384c;
   font-weight: 300;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 
 .block_position--search h3 {
   color: #00384c;
   font-weight: 300;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
+}
+
+.block_mission--united-text h3 {
+  color: #00384c;
+  font-weight: 300;
+  font-size: 1.3rem;
+  padding-bottom: 1rem;
+}
+
+.block_shopkeepers--text h3 {
+  color: #00384c;
+  font-weight: 300;
+  font-size: 1.3rem;
+  color: #000 !important;
 }
 
 @media screen and (min-width: 490px) {
@@ -339,7 +353,9 @@
   }
 
   .block_presentation--united-working-text h2,
-.block_position--search h3 {
+.block_position--search h3,
+.block_mission--united-text h3,
+.block_shopkeepers--text h3 {
     font-size: 1.4rem;
   }
 }
@@ -349,8 +365,9 @@
   }
 
   .block_presentation--united-working-text h2,
-.block_position--search h3 {
-    font-size: 1.8rem;
+.block_position--search h3,
+.block_mission--united-text h3 {
+    font-size: 2rem;
   }
 }
 @keyframes appearNavbar {
@@ -820,26 +837,16 @@
 .block_mission--united-text {
   margin: auto;
   width: 70%;
-  max-width: 27rem;
-}
-.block_mission--united-text h3 {
-  color: #00384c;
-  font-weight: 300;
-  font-size: 1.1rem;
-  padding-bottom: 1rem;
+  max-width: 26rem;
 }
 .block_mission--united-text p {
   padding-bottom: 1rem;
+  font-size: 0.9rem;
 }
 .block_mission--united-text p:last-of-type {
   font-weight: 600;
 }
 
-@media screen and (min-width: 400px) {
-  .block_mission--united-text h3 {
-    font-size: 1rem;
-  }
-}
 @media screen and (min-width: 700px) {
   .block_mission {
     margin-top: 0;
@@ -857,19 +864,18 @@
     justify-content: center;
     align-items: flex-end;
     column-gap: 3%;
-    padding-top: 2rem;
+    padding-top: 5rem;
   }
   .block_mission--united-img img {
-    width: 11rem;
+    width: 13rem;
   }
   .block_mission--united-text {
     margin: 0;
-  }
-  .block_mission--united-text h3 {
-    font-size: 1.7rem;
+    hyphens: auto;
+    width: 45%;
   }
   .block_mission--united-text p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 @media screen and (min-width: 1000px) {
@@ -881,15 +887,14 @@
 @media screen and (min-width: 1200px) {
   .block_mission--background {
     top: -7rem;
-    left: 1rem;
+    left: 3rem;
+    max-width: 90%;
   }
   .block_mission--united {
     margin-left: -5rem;
-    padding-top: 5rem;
   }
   .block_mission--united-text p {
-    width: 33rem;
-    hyphens: auto;
+    width: 28rem;
   }
 }
 .block_shopkeepers {
@@ -901,8 +906,8 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 10rem;
-  row-gap: 0.5rem;
+  width: 11rem;
+  row-gap: 10px;
   padding-top: 30%;
 }
 .block_shopkeepers--text-background {
@@ -916,10 +921,6 @@
   border-radius: 50%;
   outline-style: dashed;
   outline-width: 2px;
-}
-.block_shopkeepers--text h3 {
-  font-size: 1rem;
-  font-weight: 300;
 }
 .block_shopkeepers--text span {
   font-size: 0.6rem;
@@ -938,14 +939,11 @@
 @media screen and (min-width: 500px) {
   .block_shopkeepers--text {
     width: 14rem;
+    margin-right: -3rem;
   }
   .block_shopkeepers--text-background {
-    bottom: -4rem;
+    bottom: -2rem;
     width: 24rem;
-  }
-  .block_shopkeepers--text h3 {
-    font-size: 1.1rem;
-    width: 12rem;
   }
   .block_shopkeepers--text span {
     font-size: 0.7rem;
@@ -964,13 +962,9 @@
     width: 17rem;
   }
   .block_shopkeepers--text-background {
-    bottom: -7rem;
+    bottom: -5rem;
     left: -7rem;
-    width: 31rem;
-  }
-  .block_shopkeepers--text h3 {
-    font-size: 1.7rem;
-    width: 15rem;
+    width: 30rem;
   }
   .block_shopkeepers--text span {
     font-size: 0.9rem;
@@ -1029,7 +1023,7 @@
 .block_press--text h3 {
   color: #00384c;
   font-weight: 300;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   color: #000;
 }
 .block_press--text h3 img {
@@ -1160,7 +1154,7 @@
 .block_readyTogether--text h3 {
   color: #00384c;
   font-weight: 300;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin-bottom: 5px;
 }
 
