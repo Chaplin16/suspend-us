@@ -583,7 +583,7 @@
   width: 100%;
   z-index: -10;
   position: absolute;
-  top: -1rem;
+  top: -2rem;
   left: 0;
   outline: 1px dashed rgba(1, 181, 98, 0.5);
   outline-offset: 8px;
@@ -608,7 +608,7 @@
   margin-top: -2rem;
 }
 .block_presentation--united-gift-text p {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   width: 9rem;
   padding: 5px 0;
 }
@@ -633,7 +633,7 @@
 }
 .block_presentation--united-working-text ul {
   list-style: none;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   width: 12rem;
   color: rgb(94, 93, 93);
 }

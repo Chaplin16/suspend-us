@@ -7,7 +7,7 @@
         width:100%;
         z-index:-10;
         position: absolute;
-        top: -1rem;
+        top: -2rem;
         left:0;
         @include border-green;
     }
@@ -26,7 +26,7 @@
                 margin-top: -2rem;
             }
             &-text p{
-                font-size: 0.7rem;
+                font-size: 0.6rem;
                 width: 9rem;
                 padding: 5px 0; 
             }
@@ -48,7 +48,7 @@
             &-text{
                 ul{
                     list-style: none;
-                    font-size: 0.7rem;
+                    font-size: 0.6rem;
                     width: 12rem;
                     color:rgb(94, 93, 93);
                     span{
