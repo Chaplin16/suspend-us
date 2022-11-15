@@ -1,4 +1,4 @@
-//h2 in the block_presentation HTML line 80
+//H2 in the block_presentation HTML line 80
 .block_presentation--united-gift-text h2{
     font-size: 1.4rem;
     color: $dark-blue;
@@ -8,24 +8,24 @@
     @include title;
 }
 
-//h3 in the block_location HTML line 127
+//H3 in the block_location HTML line 127
 .block_position--search h3{
     @include title;
 }
 
-//h3 in the block_mission HTML line 147
+//H3 in the block_mission HTML line 147
 .block_mission--united-text h3{
     @include title;
     padding-bottom: 1rem;   
 }
 
-//h3 in the block_shopkeepers HTML line 171
+//H3 in the block_shopkeepers HTML line 171
 .block_shopkeepers--text h3 {
     @include title;
     color :#000!important;
 }
 
-//h3 in the block_press HTML line 191
+//H3 in the block_press HTML line 191
 .block_press--text h3 {
     @include title;
     color: #000;
@@ -34,17 +34,34 @@
     }
 }
 
-//h5 in the block_newspapers HTML line 210
+//H5 in the block_newspapers HTML line 210
 .block_newspapers--text-card h5{
     font-size: 0.7rem;
 }
 
 
-//h3 in the block_readyTogether HTML line 228
+//H3 in the block_readyTogether HTML line 228
 .block_readyTogether--text h3{
     @include title;
     margin-bottom: 5px;
 }   
+
+//H5 in the block_footer HTML line 244
+//H5 in the block_footer HTML line 255
+//H4 in the block_footer HTML line 265
+.block_footer h5{
+    font-weight: 600;
+    margin-bottom: 10px;
+    color:rgb(255, 255, 255)!important;
+    font-size: 0.8rem;
+}
+.block_footer--contact h4{
+    color: #fff;
+    text-align: right;
+    font-family: 'Damion', cursive;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
 
 @media screen and (min-width: 490px){
     .block_presentation--united-gift-text h2{

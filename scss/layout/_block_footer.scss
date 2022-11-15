@@ -22,13 +22,9 @@
             display: none;
         }   
     }
-    h5, li a{
+    li a{
         color:rgb(255, 255, 255)!important;
         font-size: 0.7rem;
-    }
-    h5{
-        font-weight: 600;
-        margin-bottom: 10px;
     }
     &--contact{
         display: flex;
@@ -38,13 +34,6 @@
             display: flex;
             align-items: flex-end;
             column-gap:1rem;
-            h4{
-                color: #fff;
-                text-align: right;
-                font-family: 'Damion', cursive;
-                font-size: 1.1rem;
-                font-weight: 300;
-            }
             & img{
                 width: 25px;
                 height: 25px;
@@ -89,7 +78,9 @@
 
 @media screen and (min-width: 500px){
     .block_footer{
-        h5, li a{font-size: 0.8rem;}
+        li a{ 
+            font-size: 0.8rem;
+        }
         &--background{
             height: 130%;
         }
@@ -141,9 +132,6 @@
             &-social-networks{
                 padding-left: 1.5rem;
                 column-gap: 1.4rem;
-                h4{
-                    font-size: 1.3rem;
-                }
             }
             &-newsletter img{
                 width: 70px;

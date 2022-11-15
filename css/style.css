@@ -375,6 +375,21 @@
   margin-bottom: 5px;
 }
 
+.block_footer h5 {
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255) !important;
+  font-size: 0.8rem;
+}
+
+.block_footer--contact h4 {
+  color: #fff;
+  text-align: right;
+  font-family: "Damion", cursive;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
 @media screen and (min-width: 490px) {
   .block_presentation--united-gift-text h2 {
     font-size: 1.7rem;
@@ -1228,13 +1243,9 @@
 .block_footer--background-full {
   display: none;
 }
-.block_footer h5, .block_footer li a {
+.block_footer li a {
   color: rgb(255, 255, 255) !important;
   font-size: 0.7rem;
-}
-.block_footer h5 {
-  font-weight: 600;
-  margin-bottom: 10px;
 }
 .block_footer--contact {
   display: flex;
@@ -1245,13 +1256,6 @@
   display: flex;
   align-items: flex-end;
   column-gap: 1rem;
-}
-.block_footer--contact-social-networks h4 {
-  color: #fff;
-  text-align: right;
-  font-family: "Damion", cursive;
-  font-size: 1.1rem;
-  font-weight: 300;
 }
 .block_footer--contact-social-networks img {
   width: 25px;
@@ -1292,7 +1296,7 @@
 }
 
 @media screen and (min-width: 500px) {
-  .block_footer h5, .block_footer li a {
+  .block_footer li a {
     font-size: 0.8rem;
   }
   .block_footer--background {
@@ -1336,9 +1340,6 @@
   .block_footer--contact-social-networks {
     padding-left: 1.5rem;
     column-gap: 1.4rem;
-  }
-  .block_footer--contact-social-networks h4 {
-    font-size: 1.3rem;
   }
   .block_footer--contact-newsletter img {
     width: 70px;
