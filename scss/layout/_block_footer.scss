@@ -119,6 +119,7 @@
         &--background{
             height:36rem;
             top:-15rem;
+            object-fit: fill;
         }
     }
     .copyright{
@@ -131,6 +132,8 @@
         }
     }
 }
+
+
 
 @media screen and (min-width: 930px){
     .block_footer{
