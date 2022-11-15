@@ -11,9 +11,10 @@
         width:11rem;
         row-gap:10px;
         padding-top:30%;
+        padding-left: 8px!important;
         &-background{
             position: absolute;
-            bottom:-3rem;
+            bottom:-2rem;
             left:-7rem;               
             width:220%;
             z-index: -10;
