@@ -61,7 +61,8 @@
             justify-content: center;
             align-items: flex-end;
             column-gap:2rem;
-            margin-right: 4rem;
+            padding-right: 4rem;
+            padding-top: 4rem;
             &-img img{
                 width: 11rem;
             }
@@ -107,8 +108,8 @@
     .block_mission--united{
         height:55vh;
         &-text p{
-            font-size:1.4rem;
-            width:36rem;
+            width:29rem;
+            hyphens: auto;
         }
     }
 }
