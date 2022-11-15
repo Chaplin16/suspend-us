@@ -583,7 +583,7 @@
   width: 100%;
   z-index: -10;
   position: absolute;
-  top: -1.5rem;
+  top: -1rem;
   left: 0;
   outline: 1px dashed rgba(1, 181, 98, 0.5);
   outline-offset: 8px;
@@ -594,7 +594,6 @@
 .block_presentation--united {
   display: flex;
   flex-direction: column;
-  row-gap: 10px;
 }
 .block_presentation--united-gift {
   display: flex;
@@ -604,21 +603,21 @@
   z-index: 10;
 }
 .block_presentation--united-gift-img {
-  width: 180px;
+  width: 140px;
   z-index: 30;
   margin-top: -2rem;
 }
 .block_presentation--united-gift-text p {
   font-size: 0.7rem;
   width: 9rem;
-  padding: 10px 0;
+  padding: 5px 0;
 }
 .block_presentation--united-working {
   display: flex;
   justify-content: flex-end;
   padding-right: 1.5rem;
   column-gap: 10px;
-  align-items: flex-start;
+  align-items: center;
   z-index: 10;
 }
 .block_presentation--united-working-img {
@@ -646,7 +645,7 @@
   font-weight: 600;
 }
 .block_presentation--united-working-text ul li:nth-of-type(3) img {
-  width: 1rem;
+  width: 15px;
 }
 .block_presentation--cercle img {
   position: absolute;
@@ -661,11 +660,11 @@
     margin-top: -1rem;
   }
   .block_presentation--united-gift-img {
-    width: 200px;
-    margin-top: 0rem;
+    width: 180px;
+    margin-top: -1rem;
   }
   .block_presentation--united-working {
-    column-gap: 1rem;
+    column-gap: 10px;
   }
   .block_presentation--united-working ul {
     font-size: 0.7rem;
@@ -692,6 +691,7 @@
   .block_presentation--united-working {
     align-items: center !important;
     padding-right: 10%;
+    column-gap: 1.5rem;
   }
   .block_presentation--united-working-img {
     width: 150px;
@@ -789,6 +789,9 @@
   }
   .block_presentation--united-gift {
     padding-left: 5rem;
+  }
+  .block_presentation--united-gift img {
+    margin-top: 1rem;
   }
   .block_presentation--cercle img {
     max-width: 1000px;
@@ -984,7 +987,7 @@
 }
 .block_shopkeepers {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   margin-top: 2rem;
 }
 .block_shopkeepers--text {
@@ -997,9 +1000,9 @@
 }
 .block_shopkeepers--text-background {
   position: absolute;
-  bottom: -2rem;
-  left: -4.5rem;
-  width: 190%;
+  bottom: -3rem;
+  left: -7rem;
+  width: 220%;
   z-index: -10;
   outline: 1px dashed rgba(1, 181, 98, 0.5);
   outline-offset: 8px;
@@ -1027,7 +1030,7 @@
     margin-right: -3rem;
   }
   .block_shopkeepers--text-background {
-    bottom: -3rem;
+    bottom: -4.5rem;
     width: 25rem;
   }
   .block_shopkeepers--text span {
