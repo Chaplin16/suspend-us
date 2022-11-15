@@ -222,7 +222,8 @@
   }
 
   .block_position--search-button input {
-    width: 14rem;
+    width: 10rem;
+    padding-right: 80px;
   }
 
   .block_shopkeepers--text-btn1 {
@@ -326,12 +327,19 @@
   font-size: 1.1rem;
 }
 
+.block_position--search h3 {
+  color: #00384c;
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
 @media screen and (min-width: 490px) {
   .block_presentation--united-gift-text h2 {
     font-size: 1.7rem;
   }
 
-  .block_presentation--united-working-text h2 {
+  .block_presentation--united-working-text h2,
+.block_position--search h3 {
     font-size: 1.4rem;
   }
 }
@@ -340,7 +348,8 @@
     font-size: 2.5rem;
   }
 
-  .block_presentation--united-working-text h2 {
+  .block_presentation--united-working-text h2,
+.block_position--search h3 {
     font-size: 1.8rem;
   }
 }
@@ -624,7 +633,6 @@
     row-gap: 5rem;
   }
   .block_presentation--united-gift {
-    justify-content: flex-start;
     padding-left: 10vw;
   }
   .block_presentation--united-gift-img {
@@ -657,33 +665,25 @@
   }
 }
 @media screen and (min-width: 900px) {
-  .block_presentation {
-    width: 900px !important;
-    margin: auto;
-    margin-top: 3rem;
-  }
-  .block_presentation--united {
-    row-gap: 1.5rem;
-  }
   .block_presentation--united-gift {
-    column-gap: 1rem;
+    column-gap: 1.5rem;
     padding-left: 3rem;
   }
   .block_presentation--united-gift-img {
     width: 380px;
   }
   .block_presentation--united-working-img {
-    width: 250px;
+    width: 280px;
   }
 
   .block_presentation--cercle img {
-    top: 20vh;
-    max-width: 950px;
+    top: 25vh;
   }
 }
 @media screen and (min-width: 1000px) {
   .block_presentation {
     width: 1000px !important;
+    margin: auto;
   }
   .block_presentation--united-gift {
     padding-left: 5rem;
@@ -693,9 +693,6 @@
   }
 }
 @media screen and (min-width: 1250px) {
-  .block_presentation--united {
-    row-gap: 4rem;
-  }
   .block_presentation--united-gift-img {
     width: 420px;
   }
@@ -725,11 +722,6 @@
   outline-offset: 10px;
   z-index: 10;
 }
-.block_position--search h3 {
-  color: #00384c;
-  font-weight: 300;
-  font-size: 1.1rem;
-}
 .block_position--search p {
   font-size: 0.7rem;
   color: rgb(94, 93, 93);
@@ -744,9 +736,6 @@
 
   .block_position--search {
     margin-left: -10px;
-  }
-  .block_position--search h3 {
-    font-size: 1rem;
   }
   .block_position--search p {
     font-size: 0.85rem;
@@ -769,9 +758,6 @@
   .block_position--card iframe {
     width: 24rem;
     height: 24rem;
-  }
-  .block_position--search h3 {
-    font-size: 1.7rem;
   }
   .block_position--search p {
     font-size: 1rem;

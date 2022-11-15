@@ -16,16 +16,10 @@
         outline-offset: 10px;
         z-index: 10;
     }
-    &--search{
-        h3{
-            @include title;
-        }
-        p{
-            font-size:0.7rem;
-            color: $text-grey;
-            padding-bottom:0.7rem;
-        }
-        
+    &--search p{
+        font-size:0.7rem;
+        color: $text-grey;
+        padding-bottom:0.7rem;
     }
 }
 
@@ -37,9 +31,6 @@
     .block_position {
         &--search{
             margin-left: -10px;
-            h3{
-                font-size: 1rem;
-            }
             p{
                 font-size: 0.85rem;
             }
@@ -65,13 +56,8 @@
             width: 24rem;
             height:24rem;
         }
-        &--search{
-            h3{
-                font-size: 1.7rem;
-            }
-            p{
-                font-size: 1rem;
-            }
+        &--search p{
+            font-size: 1rem;
         }
     }
 }

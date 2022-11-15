@@ -10,11 +10,17 @@
 }
 
 
+//h2 in the block_location HTML line 127
+.block_position--search h3{
+    @include title;
+}
+
 @media screen and (min-width: 490px){
     .block_presentation--united-gift-text h2{
         font-size: 1.7rem;
     }
-    .block_presentation--united-working-text h2{
+    .block_presentation--united-working-text h2,
+    .block_position--search h3{
         font-size: 1.4rem;
     }
 }
@@ -23,7 +29,8 @@
     .block_presentation--united-gift-text h2{
         font-size: 2.5rem;
     }
-    .block_presentation--united-working-text h2{
+    .block_presentation--united-working-text h2,
+    .block_position--search h3{
         font-size: 1.8rem;
     }
 }
