@@ -73,7 +73,6 @@
 
 .copyright{
     background-color: $dark-blue;
-    color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,6 +81,9 @@
     row-gap:0.5rem;
     span{
         display: none;
+    }
+    p{
+        color: #fff!important; 
     }
 }
 

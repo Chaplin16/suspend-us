@@ -455,7 +455,7 @@
   width: 100%;
   z-index: -10;
   position: absolute;
-  top: 0rem;
+  top: 0;
   left: 0;
   outline: 1px dashed rgba(1, 181, 98, 0.5);
   outline-offset: 8px;
@@ -484,11 +484,12 @@
   margin-top: 2.5rem;
 }
 .block_presentation--united-gift-text h2 {
-  font-size: 0.9rem;
+  font-size: 1.4rem;
   color: #005a81;
+  font-weight: 300;
 }
 .block_presentation--united-gift-text h2 img {
-  width: 10px;
+  width: 15px;
   padding-bottom: 6px;
   margin-right: -4px;
 }
@@ -496,13 +497,12 @@
   font-size: 0.7rem;
   width: 9rem;
   padding: 10px 0;
-  color: rgb(94, 93, 93);
 }
 .block_presentation--united-working {
   display: flex;
   justify-content: flex-end;
   padding-right: 1.5rem;
-  column-gap: 10px;
+  column-gap: 5px;
   align-items: flex-start;
   z-index: 10;
 }
@@ -524,7 +524,7 @@
 .block_presentation--united-working-text ul {
   list-style: none;
   font-size: 0.7rem;
-  width: 9.5rem;
+  width: 11rem;
   color: rgb(94, 93, 93);
 }
 .block_presentation--united-working-text ul span {
@@ -538,7 +538,7 @@
   font-weight: 600;
 }
 .block_presentation--united-working-text ul li:nth-of-type(3) img {
-  width: 11px;
+  width: 1rem;
 }
 .block_presentation--cercle img {
   position: absolute;
@@ -561,7 +561,7 @@
   }
   .block_presentation--united-working ul {
     font-size: 0.7rem;
-    width: 10rem;
+    width: 14rem;
   }
   .block_presentation--united-working-img {
     width: 120px;
@@ -595,8 +595,10 @@
     width: 150px;
   }
   .block_presentation--united-working ul {
-    width: 12rem;
     font-size: 0.8rem;
+  }
+  .block_presentation--united-working ul li:nth-of-type(3) img {
+    width: 1.2rem;
   }
   .block_presentation--cercle img {
     width: 95vw;
@@ -615,7 +617,7 @@
   }
   .block_presentation--united-working ul {
     font-size: 1rem;
-    width: 15rem;
+    width: 16rem;
   }
 
   .block_presentation--cercle img {
@@ -638,7 +640,7 @@
   }
   .block_presentation--united-gift h2 img {
     width: 20px;
-    margin: 0 -8px;
+    margin-right: -8px;
     padding-bottom: 10px;
   }
   .block_presentation--united-gift p {
@@ -646,11 +648,14 @@
     width: 70%;
   }
   .block_presentation--united-working {
-    column-gap: 3rem;
+    column-gap: 2rem;
   }
   .block_presentation--united-working ul {
     font-size: 1.2rem;
-    width: 19rem;
+    width: 20rem;
+  }
+  .block_presentation--united-working ul li:nth-of-type(3) img {
+    width: 1.4rem;
   }
   .block_presentation--united-working h2 {
     font-size: 1.7rem;
@@ -847,7 +852,6 @@
 }
 .block_mission--united-text p {
   padding-bottom: 1rem;
-  color: rgb(94, 93, 93);
 }
 .block_mission--united-text p:last-of-type {
   font-weight: 600;
@@ -944,7 +948,6 @@
 }
 .block_shopkeepers--text p {
   font-size: 0.7rem;
-  color: rgb(94, 93, 93);
 }
 .block_shopkeepers--img img {
   width: 11rem;
@@ -1049,13 +1052,11 @@
 }
 .block_press--text h3 img {
   width: 11px;
-  margin-left: -5px;
 }
 .block_press--text p {
   font-size: 0.7rem;
   width: 19rem;
   text-align: center;
-  color: rgb(94, 93, 93);
 }
 
 @media screen and (min-width: 500px) {
@@ -1125,7 +1126,6 @@
 }
 .block_newspapers--text-card p {
   font-size: 0.7rem;
-  color: rgb(94, 93, 93);
 }
 .block_newspapers--text-point {
   color: #d0d0d0;
@@ -1282,7 +1282,6 @@
 
 .copyright {
   background-color: #00384c;
-  color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1292,6 +1291,9 @@
 }
 .copyright span {
   display: none;
+}
+.copyright p {
+  color: #fff !important;
 }
 
 @media screen and (min-width: 500px) {
@@ -1402,6 +1404,10 @@ footer {
 
 h2, h3 {
   font-family: "Damion", cursive;
+}
+
+p {
+  color: rgb(94, 93, 93);
 }
 
 /*# sourceMappingURL=style.css.map */
