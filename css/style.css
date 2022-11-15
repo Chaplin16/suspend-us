@@ -548,7 +548,7 @@
     margin-top: 3rem;
   }
   .block_presentation--united {
-    row-gap: 1.5rem;
+    row-gap: 0.5rem;
   }
   .block_presentation--united-gift {
     justify-content: flex-start;
@@ -578,7 +578,7 @@
     font-size: 0.8rem;
   }
   .block_presentation--cercle img {
-    width: 100vw !important;
+    width: 95vw;
   }
 }
 @media screen and (min-width: 600px) {
@@ -598,7 +598,7 @@
   }
 
   .block_presentation--cercle img {
-    width: 95vw;
+    width: 100vw;
   }
 }
 @media screen and (min-width: 700px) {
@@ -642,7 +642,6 @@
   }
   .block_presentation--cercle img {
     top: 15vh;
-    width: 100vw;
   }
 }
 @media screen and (min-width: 900px) {
@@ -698,11 +697,11 @@
   row-gap: 1rem;
   flex-wrap: wrap;
   column-gap: 2rem;
-  margin-top: 6rem;
+  margin-top: 2rem;
 }
 .block_position--card iframe {
-  width: 8rem;
-  height: 8rem;
+  width: 10rem;
+  height: 10rem;
   z-index: 10;
   outline: 1px dashed rgba(0, 90, 129, 0.5);
   outline-offset: 5px;
@@ -724,7 +723,7 @@
 
 @media screen and (min-width: 400px) {
   .block_position {
-    align-items: center;
+    align-items: flex-end;
   }
   .block_position--card iframe {
     width: 11rem;
@@ -732,14 +731,6 @@
   }
 }
 @media screen and (min-width: 480px) {
-  .block_position {
-    margin-top: 5.5rem;
-    column-gap: 2rem;
-  }
-  .block_position--card iframe {
-    width: 17rem;
-    height: 17rem;
-  }
   .block_position--search {
     margin-left: -10px;
   }
@@ -750,9 +741,9 @@
     font-size: 0.85rem;
   }
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 590px) {
   .block_position {
-    margin-top: 25%;
+    margin-top: 20%;
     align-items: center;
   }
   .block_position--card iframe {
@@ -840,6 +831,9 @@
 .block_mission--united-text p {
   padding-bottom: 1rem;
   color: rgb(94, 93, 93);
+}
+.block_mission--united-text p:last-of-type {
+  font-weight: 600;
 }
 
 @media screen and (min-width: 400px) {
@@ -1535,6 +1529,7 @@
   padding: 0;
   text-decoration: none;
   list-style: none;
+  font-family: "Open Sans", sans-serif;
 }
 
 header,

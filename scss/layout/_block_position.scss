@@ -6,10 +6,10 @@
     row-gap: 1rem;
     flex-wrap: wrap;
     column-gap: 2rem;;
-    margin-top :6rem;
+    margin-top :2rem;
     &--card iframe{
-        width: 8rem;
-        height:8rem;
+        width: 10rem;
+        height:10rem;
         z-index:10;
         @include border-blue;
         outline-offset: 10px;
@@ -31,7 +31,7 @@
 
 @media screen and (min-width: 400px){
     .block_position {
-        align-items: center;
+        align-items: flex-end;
         &--card iframe{
             width: 11rem;
             height: 11rem;
@@ -41,12 +41,6 @@
 
 @media screen and (min-width: 480px){
     .block_position {
-        margin-top:5.5rem;
-        column-gap: 2rem;
-        &--card iframe{
-            width: 17rem;
-            height: 17rem;
-        }
         &--search{
             margin-left: -10px;
             h3{
@@ -59,9 +53,9 @@
     }
 }
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 590px){
     .block_position {
-        margin-top: 25%;
+        margin-top: 20%;
         align-items: center;
         &--card iframe{
             width: 22rem;

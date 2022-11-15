@@ -25,6 +25,9 @@
             p{
                 padding-bottom: 1rem;
                 color: $text-grey;
+                &:last-of-type{
+                    font-weight: 600;
+                }
             }
         } 
     }
