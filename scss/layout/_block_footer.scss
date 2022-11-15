@@ -97,29 +97,28 @@
 @media screen and (min-width: 600px){
     .block_footer--background{
         top: -11rem;
-        height: 150%;
+        height: 140%;
     }
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 715px){
     .block_footer--background{
-        height: 180%;
-        top: -9rem;
+        height:33.5rem;
     }
 }
 
-@media screen and (min-width: 750px){
+@media screen and (min-width: 800px){
     .block_footer{
         &--contact{
             row-gap: 2.5rem;
-            margin-left:auto!important;
+            margin: -2rem 0 0 auto!important;
             padding-right: 5%;
-            &-newsletter{
-                align-items: center!important;
-            } 
         } 
+        &--background{
+            height:36rem;
+            top:-15.5rem;
+        }
     }
-
     .copyright{
         flex-direction: row;
         justify-content: center;
@@ -134,53 +133,44 @@
 @media screen and (min-width: 930px){
     .block_footer{
         &--contact{
-            padding-right:2%;
-            align-items: flex-start!important;
             &-social-networks{
                 padding-left: 1.5rem;
                 column-gap: 1.4rem;
                 h4{
-                    font-size: 1.1rem;
+                    font-size: 1.3rem;
                 }
             }
-            &-newsletter{
-                column-gap: 1.7rem;
-                img{
-                    width: 70px;
-                }
+            &-newsletter img{
+                width: 70px;
             }
         }
-        &--background{
-            top:-12rem;
-            min-height:480px;
-        } 
     }
 }
 
-@media screen and (min-width: 900px){
-    .block_footer--contact{
-        padding-right:10%;
-        
+@media screen and (min-width: 1150px){
+    .block_footer{
+        &--suspend-us{
+            padding-left: 15%;
+        }
+        &--contact{
+            margin-left: 5rem!important;
+        }
     }
-}
-
-@media screen and (min-width: 1200px){
-    .block_footer--contact{
-        padding-right:15%;
-        
-    }
-}
-
-@media screen and (min-width: 1280px){
     .block_footer--background{
         display: none;
         &-full{
             display: block;
             position: absolute;
+            width: 100%;
             z-index: -1;
-            top:-14rem;
+            top:-12rem;
             left:0rem;
         }
+    }
+}
 
+@media screen and (min-width: 1250px){
+    .block_footer--background-full{
+        top:-15rem;
     }
 }
