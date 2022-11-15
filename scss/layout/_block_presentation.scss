@@ -7,7 +7,7 @@
         width:100%;
         z-index:-10;
         position: absolute;
-        top:0;
+        top: -1.5rem;
         left:0;
         @include border-green;
     }
@@ -26,18 +26,10 @@
                 z-index:30;   
                 margin-top: -2rem;
             }
-            &-text{
-                margin-top:2.5rem;
-                h2 img{
-                    width:15px;
-                    padding-bottom:6px;
-                    margin-right: -4px;
-                }
-                p{
-                    font-size: 0.7rem;
-                    width: 9rem;
-                    padding: 10px 0;
-                }
+            &-text p{
+                font-size: 0.7rem;
+                width: 9rem;
+                padding: 10px 0;
             }
         }
         &-working{
@@ -111,7 +103,7 @@
         &--united{
             &-gift{
                 justify-content: flex-start;
-                padding-left: 5%;
+                padding-left: 4%;
                 &-img{
                     width: 240px; 
                 }
@@ -162,7 +154,6 @@
 @media screen and (min-width: 700px){
     .block_presentation{
         &--united{
-            row-gap:5rem;
             &-gift{
                 &-img{
                     width:280px;
@@ -201,9 +192,13 @@
 
 @media screen and (min-width: 900px){
     .block_presentation{
+        &--background{
+            top: 0;
+        }
         &--united-gift{
             column-gap:1.5rem;
             padding-left:3rem;
+            margin-top: 0;
             &-img{
                 width: 380px;
             }
@@ -221,6 +216,9 @@
     .block_presentation{
         width: 1000px!important;
         margin:auto;
+        &--background{
+            top: 2rem;
+        }
         &--united-gift{
             padding-left: 5rem;
         }

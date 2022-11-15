@@ -327,6 +327,12 @@
   color: #00384c;
   font-weight: 300;
 }
+.block_presentation--united-gift-text h2 img {
+  width: 15px;
+  padding-bottom: 10px;
+  margin-right: -10px;
+  margin-left: -3px;
+}
 
 .block_presentation--united-working-text h2 {
   color: #00384c;
@@ -577,7 +583,7 @@
   width: 100%;
   z-index: -10;
   position: absolute;
-  top: 0;
+  top: -1.5rem;
   left: 0;
   outline: 1px dashed rgba(1, 181, 98, 0.5);
   outline-offset: 8px;
@@ -601,14 +607,6 @@
   width: 180px;
   z-index: 30;
   margin-top: -2rem;
-}
-.block_presentation--united-gift-text {
-  margin-top: 2.5rem;
-}
-.block_presentation--united-gift-text h2 img {
-  width: 15px;
-  padding-bottom: 6px;
-  margin-right: -4px;
 }
 .block_presentation--united-gift-text p {
   font-size: 0.7rem;
@@ -683,7 +681,7 @@
   }
   .block_presentation--united-gift {
     justify-content: flex-start;
-    padding-left: 5%;
+    padding-left: 4%;
   }
   .block_presentation--united-gift-img {
     width: 240px;
@@ -729,9 +727,6 @@
   }
 }
 @media screen and (min-width: 700px) {
-  .block_presentation--united {
-    row-gap: 5rem;
-  }
   .block_presentation--united-gift {
     padding-left: 10vw;
   }
@@ -765,9 +760,13 @@
   }
 }
 @media screen and (min-width: 900px) {
+  .block_presentation--background {
+    top: 0;
+  }
   .block_presentation--united-gift {
     column-gap: 1.5rem;
     padding-left: 3rem;
+    margin-top: 0;
   }
   .block_presentation--united-gift-img {
     width: 380px;
@@ -784,6 +783,9 @@
   .block_presentation {
     width: 1000px !important;
     margin: auto;
+  }
+  .block_presentation--background {
+    top: 2rem;
   }
   .block_presentation--united-gift {
     padding-left: 5rem;
@@ -1021,12 +1023,12 @@
 
 @media screen and (min-width: 500px) {
   .block_shopkeepers--text {
-    width: 14rem;
+    width: 15rem;
     margin-right: -3rem;
   }
   .block_shopkeepers--text-background {
-    bottom: -2rem;
-    width: 24rem;
+    bottom: -3rem;
+    width: 25rem;
   }
   .block_shopkeepers--text span {
     font-size: 0.7rem;
@@ -1042,10 +1044,10 @@
 }
 @media screen and (min-width: 700px) {
   .block_shopkeepers--text {
-    width: 17rem;
+    width: 18rem;
   }
   .block_shopkeepers--text-background {
-    bottom: -3rem;
+    bottom: -4rem;
     left: -9rem;
     width: 33rem;
   }
@@ -1067,9 +1069,9 @@
     margin-right: 0;
   }
   .block_shopkeepers--text-background {
-    bottom: -9rem;
+    bottom: -6rem;
     left: -11rem;
-    width: 40rem;
+    width: 38rem;
   }
   .block_shopkeepers--img img {
     width: 32rem;
@@ -1346,6 +1348,9 @@
   }
 }
 @media screen and (min-width: 1150px) {
+  .block_footer {
+    padding-top: 4rem;
+  }
   .block_footer--suspend-us {
     padding-left: 15%;
   }
@@ -1360,14 +1365,14 @@
     display: block;
     position: absolute;
     width: 100%;
+    top: -16rem;
     z-index: -1;
-    top: -12rem;
     left: 0rem;
   }
 }
 @media screen and (min-width: 1250px) {
   .block_footer--background-full {
-    top: -15rem;
+    top: -17rem;
   }
 }
 @keyframes appearNavbar {

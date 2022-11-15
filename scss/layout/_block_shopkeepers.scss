@@ -40,11 +40,11 @@
 @media screen and (min-width: 500px){
     .block_shopkeepers{
         &--text{
-            width: 14rem;
+            width: 15rem;
             margin-right: -3rem;
             &-background{
-                bottom: -2rem;
-                width: 24rem;
+                bottom: -3rem;
+                width: 25rem;
             }
             span{
                 font-size: 0.7rem;
@@ -64,9 +64,9 @@
 @media screen and (min-width: 700px){
     .block_shopkeepers{
         &--text{
-            width: 17rem;
+            width: 18rem;
             &-background{
-                bottom: -3rem;
+                bottom: -4rem;
                 left: -9rem;
                 width: 33rem;
             }
@@ -89,9 +89,9 @@
         &--text{
             margin-right: 0;
             &-background{
-                bottom: -9rem;
+                bottom: -6rem;
                 left: -11rem;
-                width: 40rem;
+                width: 38rem;
             }
         }
         &--img img{

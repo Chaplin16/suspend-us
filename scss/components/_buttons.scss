@@ -237,10 +237,12 @@
             font-size: 17px;
         }
     }
+
     .block_presentation--united-gift-text button{
         padding: 10px 20px;
         font-size: $writingSizeTablet;
     }
+
     .block_position--search-button{
         button {
             padding: 0.7rem 1.5rem;
@@ -260,20 +262,24 @@
             width: 30px;
         }
     }
+
     .block_mission--united-text button{
         font-size: $writingSizeTablet;
         padding: 12px 25px;
         margin-top: 0.9rem;
     }
+
     .block_shopkeepers--text {
         &-btn1,
         &-btn2{
             padding: 12px 25px;
         }
     }
+
     .block_press--text button {
         padding: 12px 25px;
     }
+
     .block_readyTogether--text-button{
         img{
             width: 25px;
@@ -290,6 +296,7 @@
             font-size: $writingSizePhone;
         }
     }
+    
     .block_footer--contact-newsletter-registration-btn{
         input{
             width:16rem;

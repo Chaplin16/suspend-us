@@ -3,6 +3,12 @@
     font-size: 1.4rem;
     color: $dark-blue;
     font-weight: 300;
+    img{                //small heart in the title
+        width:15px;
+        padding-bottom:10px;
+        margin-right: -10px;
+        margin-left: -3px;
+    }
 }
 .block_presentation--united-working-text h2{
     @include title;
@@ -29,8 +35,8 @@
 .block_press--text h3 {
     @include title;
     color: #000;
-    img{
-        width: 13px;
+    img{  
+        width: 13px;  //small heart in the title
     }
 }
 
