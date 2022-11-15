@@ -8,10 +8,6 @@
     &--img img {
         width: 11rem;
     }
-    &--text h3{
-        @include title;
-        margin-bottom: 5px;
-    }
 }
 
 @media screen and (min-width: 500px){
@@ -22,9 +18,6 @@
         }
         &--text{
             margin: 1rem 0 0 -2rem;
-            h3{
-                font-size: 1.1rem;
-            }
         }
     }
 }
@@ -32,22 +25,5 @@
 @media screen and (min-width: 750px){
     .block_readyTogether--text{
         margin-top:2.5rem;
-        h3{
-            font-size: 1.7rem;
-        }
     }
 }
-
-@media screen and (min-width: 1000px){
-    .block_readyTogether--text h3{
-        font-size: 2rem;
-    }
-    
-}
-
-@media screen and (min-width: 1200px){
-    .block_readyTogether--text h3{
-        font-size: 2.2rem;
-    }
-}
-

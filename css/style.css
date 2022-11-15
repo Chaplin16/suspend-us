@@ -6,13 +6,15 @@
 }
 .selectChoice_offer, .selectChoice_receive {
   border: none;
-  width: 68px;
+  padding: 8px 15px;
+  border-radius: 50px;
   color: #fff;
+  font-size: 0.7rem;
+  font-weight: 600;
+  width: 68px;
   text-align: left !important;
-  padding: 7px 0 7px 15px;
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
-  font-size: 11px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
   cursor: pointer;
 }
 .selectChoice_offer {
@@ -29,6 +31,7 @@
   border-radius: 50px;
   color: #fff;
   font-size: 0.7rem;
+  font-weight: 600;
 }
 
 .block_position--search-button {
@@ -70,6 +73,7 @@
   border-radius: 50px;
   color: #fff;
   font-size: 0.7rem;
+  font-weight: 600;
 }
 
 .block_shopkeepers--text-btn1 {
@@ -79,6 +83,7 @@
   border-radius: 50px;
   color: #fff;
   font-size: 0.7rem;
+  font-weight: 600;
 }
 .block_shopkeepers--text-btn2 {
   background-color: #005a81;
@@ -87,6 +92,7 @@
   border-radius: 50px;
   color: #fff;
   font-size: 0.7rem;
+  font-weight: 600;
 }
 
 .block_press--text button {
@@ -96,6 +102,7 @@
   border-radius: 50px;
   color: #fff;
   font-size: 0.7rem;
+  font-weight: 600;
 }
 
 .block_readyTogether--text-button {
@@ -113,7 +120,7 @@
   border-bottom-left-radius: 50px;
   font-size: 0.7rem;
   max-width: 40%;
-  padding: 5px 40px 5px 20px;
+  padding: 5px 60px 5px 20px;
 }
 .block_readyTogether--text-button button {
   position: absolute;
@@ -347,6 +354,27 @@
   color: #000 !important;
 }
 
+.block_press--text h3 {
+  color: #00384c;
+  font-weight: 300;
+  font-size: 1.3rem;
+  color: #000;
+}
+.block_press--text h3 img {
+  width: 13px;
+}
+
+.block_newspapers--text-card h5 {
+  font-size: 0.7rem;
+}
+
+.block_readyTogether--text h3 {
+  color: #00384c;
+  font-weight: 300;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+}
+
 @media screen and (min-width: 490px) {
   .block_presentation--united-gift-text h2 {
     font-size: 1.7rem;
@@ -355,8 +383,18 @@
   .block_presentation--united-working-text h2,
 .block_position--search h3,
 .block_mission--united-text h3,
-.block_shopkeepers--text h3 {
+.block_shopkeepers--text h3,
+.block_press--text h3,
+.block_readyTogether--text h3 {
     font-size: 1.4rem;
+  }
+
+  .block_press--text h3 img {
+    width: 17px;
+  }
+
+  .block_newspapers--text-card h5 {
+    font-size: 1rem;
   }
 }
 @media screen and (min-width: 700px) {
@@ -366,8 +404,38 @@
 
   .block_presentation--united-working-text h2,
 .block_position--search h3,
-.block_mission--united-text h3 {
+.block_mission--united-text h3,
+.block_shopkeepers--text h3,
+.block_press--text h3,
+.block_readyTogether--text h3 {
     font-size: 2rem;
+  }
+
+  .block_press--text h3 img {
+    width: 20px;
+  }
+
+  .block_newspapers--text-card h5 {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 950px) {
+  .block_presentation--united-gift-text h2 {
+    font-size: 3.5rem;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .block_presentation--united-working-text h2,
+.block_position--search h3,
+.block_mission--united-text h3,
+.block_shopkeepers--text h3,
+.block_press--text h3,
+.block_readyTogether--text h3 {
+    font-size: 2.4rem;
+  }
+
+  .block_newspapers--text-card h5 {
+    font-size: 1.2rem;
   }
 }
 @keyframes appearNavbar {
@@ -962,9 +1030,9 @@
     width: 17rem;
   }
   .block_shopkeepers--text-background {
-    bottom: -5rem;
-    left: -7rem;
-    width: 30rem;
+    bottom: -3rem;
+    left: -9rem;
+    width: 33rem;
   }
   .block_shopkeepers--text span {
     font-size: 0.9rem;
@@ -979,6 +1047,9 @@
 @media screen and (min-width: 900px) {
   .block_shopkeepers {
     margin-top: 7rem;
+  }
+  .block_shopkeepers--text {
+    margin-right: 0;
   }
   .block_shopkeepers--text-background {
     bottom: -9rem;
@@ -1020,15 +1091,6 @@
   align-items: center;
   row-gap: 1rem;
 }
-.block_press--text h3 {
-  color: #00384c;
-  font-weight: 300;
-  font-size: 1.3rem;
-  color: #000;
-}
-.block_press--text h3 img {
-  width: 11px;
-}
 .block_press--text p {
   font-size: 0.7rem;
   width: 19rem;
@@ -1036,12 +1098,6 @@
 }
 
 @media screen and (min-width: 500px) {
-  .block_press--text h3 {
-    font-size: 1.1rem;
-  }
-  .block_press--text h3 img {
-    width: 13px;
-  }
   .block_press--text p {
     font-size: 1rem;
     width: 25rem;
@@ -1050,13 +1106,6 @@
 @media screen and (min-width: 750px) {
   .block_press {
     row-gap: 2rem;
-  }
-  .block_press--text h3 {
-    font-size: 1.7rem;
-  }
-  .block_press--text h3 img {
-    width: 20px;
-    padding-bottom: 5px;
   }
   .block_press--text p {
     font-size: 1.2rem;
@@ -1067,12 +1116,6 @@
   .block_press img {
     margin: auto;
     max-width: 1050px !important;
-  }
-  .block_press--text h3 {
-    font-size: 2rem;
-  }
-  .block_press--text h3 img {
-    width: 22px;
   }
   .block_press--text p {
     width: 35rem;
@@ -1097,9 +1140,6 @@
 .block_newspapers--text-card {
   width: 50%;
 }
-.block_newspapers--text-card h5 {
-  font-size: 0.7rem;
-}
 .block_newspapers--text-card p {
   font-size: 0.7rem;
 }
@@ -1123,7 +1163,7 @@
   .block_newspapers--text {
     padding-top: 35%;
   }
-  .block_newspapers--text-card h5, .block_newspapers--text-card p {
+  .block_newspapers--text-card p {
     font-size: 1rem;
   }
   .block_newspapers--text-point span {
@@ -1137,7 +1177,7 @@
   .block_newspapers--text-card {
     width: 45%;
   }
-  .block_newspapers--text-card h5, .block_newspapers--text-card p {
+  .block_newspapers--text-card p {
     font-size: 1.2rem;
   }
 }
@@ -1151,12 +1191,6 @@
 .block_readyTogether--img img {
   width: 11rem;
 }
-.block_readyTogether--text h3 {
-  color: #00384c;
-  font-weight: 300;
-  font-size: 1.3rem;
-  margin-bottom: 5px;
-}
 
 @media screen and (min-width: 500px) {
   .block_readyTogether--img img {
@@ -1166,26 +1200,10 @@
   .block_readyTogether--text {
     margin: 1rem 0 0 -2rem;
   }
-  .block_readyTogether--text h3 {
-    font-size: 1.1rem;
-  }
 }
 @media screen and (min-width: 750px) {
   .block_readyTogether--text {
     margin-top: 2.5rem;
-  }
-  .block_readyTogether--text h3 {
-    font-size: 1.7rem;
-  }
-}
-@media screen and (min-width: 1000px) {
-  .block_readyTogether--text h3 {
-    font-size: 2rem;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .block_readyTogether--text h3 {
-    font-size: 2.2rem;
   }
 }
 .block_footer {

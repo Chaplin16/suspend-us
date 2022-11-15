@@ -15,9 +15,6 @@
         padding: 30% 0 0 5%;
         &-card{
             width: 50%;
-            h5 {
-                font-size: 0.7rem;
-            }
             p {
                 font-size: 0.7rem;
             }
@@ -46,10 +43,8 @@
         }
         &--text{
             padding-top: 35%;
-            &-card{
-                h5,p{
-                    font-size: 1rem;
-                }
+            &-card p{
+                font-size: 1rem;
             }
             &-point span{
                 font-size: 2.2rem;
@@ -64,7 +59,7 @@
         padding-top: 30%;
         &-card{
             width: 45%;
-            h5,p{
+            p{
                 font-size: 1.2rem;
             }
         }

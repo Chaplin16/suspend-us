@@ -66,9 +66,9 @@
         &--text{
             width: 17rem;
             &-background{
-                bottom: -5rem;
-                left: -7rem;
-                width: 30rem;
+                bottom: -3rem;
+                left: -9rem;
+                width: 33rem;
             }
             span{
                 font-size: 0.9rem;
@@ -87,6 +87,7 @@
     .block_shopkeepers{
         margin-top:7rem;
         &--text{
+            margin-right: 0;
             &-background{
                 bottom: -9rem;
                 left: -11rem;

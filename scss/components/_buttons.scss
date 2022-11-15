@@ -9,14 +9,11 @@
     row-gap: 5px;
     &_offer,
     &_receive{
-        border: none;
+        @include button;
         width: 68px;
-        color: #fff;
         text-align: left!important;
-        padding: 7px 0 7px 15px;
-        border-top-left-radius: 50px;
-        border-bottom-left-radius: 50px;
-        font-size: 11px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
         cursor: pointer;
     }
     &_offer{
@@ -33,7 +30,7 @@
     @include button;
 }
 
-//button localisation HTML line 120 to 124
+//button in the block_position HTML line 120 to 124
 .block_position--search-button{
     position: relative;
     img{
@@ -53,13 +50,13 @@
     }
 }
 
-//button mission HTML line 138 to 141
+//button in the block_mission HTML line 138 to 141
 .block_mission--united-text button{
     background-color: $green;
     @include button;
 }
 
-// buttonS shopkeepers HTML line 154 et line 155
+// buttonS in the block_shopkeepers HTML line 154 et line 155
 .block_shopkeepers--text {
     &-btn1{
         background-color: $green;
@@ -71,13 +68,13 @@
     }
 }
 
-//button contact HTML line 192 to 193
+//button in the block_press HTML line 192 to 193
 .block_press--text button {
     background-color: $green;
     @include button;
 } 
 
-//button readyTogether HTML line 222 to 226
+//button in the block_readyTogether HTML line 222 to 226
 .block_readyTogether--text-button{
     position: relative;
     img{
@@ -88,7 +85,7 @@
     }
     input{
         @include inputBtn;
-        padding: 5px 40px 5px 20px; //
+        padding: 5px 60px 5px 20px; //
     }
     button{
         @include btnWithInput;
@@ -97,7 +94,7 @@
     }
 }
 
-//button footer below newsletter HTML line 275 to 278
+//button in the block_footer below newsletter HTML line 275 to 278
 .block_footer--contact-newsletter-registration-btn{
     input{
         border-radius: 5px;
