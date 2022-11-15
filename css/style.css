@@ -818,7 +818,7 @@
   outline-width: 2px;
 }
 .block_mission--united-text {
-  width: 15rem;
+  padding: 0 2rem;
 }
 .block_mission--united-text h3 {
   font-size: 0.9rem;
@@ -835,34 +835,31 @@
 
 @media screen and (min-width: 400px) {
   .block_mission--united-text {
-    width: 22rem;
+    width: 60%;
+    padding: 0;
   }
   .block_mission--united-text h3 {
     font-size: 1rem;
   }
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
+  .block_mission {
+    margin-top: 0;
+  }
   .block_mission--background {
     display: block;
     position: absolute;
     width: 100%;
     z-index: -10;
-    top: -3rem;
+    top: -4rem;
     left: 0;
-  }
-}
-@media screen and (min-width: 750px) {
-  .block_mission--background {
-    top: -10rem;
-    max-width: 1130px;
   }
   .block_mission--united {
     flex-direction: row !important;
     justify-content: center;
     align-items: flex-end;
-    column-gap: 2rem;
-    padding-right: 4rem;
-    padding-top: 4rem;
+    column-gap: 3%;
+    padding-top: 2rem;
   }
   .block_mission--united-img img {
     width: 11rem;
@@ -877,36 +874,23 @@
     font-size: 1.2rem;
   }
 }
-@media screen and (min-width: 900px) {
-  .block_mission--united {
-    vertical-align: bottom;
-    height: 40vh;
-    padding-left: 10px;
-  }
+@media screen and (min-width: 1000px) {
   .block_mission--united-img img {
     width: 20rem;
-    margin-bottom: -6rem;
-  }
-  .block_mission--united-text {
-    width: 30rem;
+    margin-bottom: -4rem;
   }
 }
 @media screen and (min-width: 1200px) {
-  .block_mission {
-    margin-top: 0;
-  }
-
   .block_mission--background {
     top: -8.5rem;
-    left: 2rem;
-    max-width: 1200px;
+    left: 1rem;
   }
 
   .block_mission--united {
-    height: 55vh;
+    margin-left: -5rem;
   }
   .block_mission--united-text p {
-    width: 29rem;
+    width: 33rem;
     hyphens: auto;
   }
 }

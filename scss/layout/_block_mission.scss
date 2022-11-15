@@ -16,7 +16,7 @@
             @include border-blue;
         }
         &-text{
-            width: 15rem;
+            padding: 0 2rem;
             h3{
                 font-size: 0.9rem;
                 color: $blue;
@@ -35,7 +35,8 @@
 
 @media screen and (min-width: 400px){
     .block_mission--united-text{
-        width:22rem;
+        width:60%;
+        padding: 0;
         h3{
             font-size: 1rem;
         }
@@ -43,29 +44,26 @@
 }
 
 @media screen and (min-width: 600px){
-    .block_mission--background{
-        display: block;
-        position: absolute;
-        width: 100%;
-        z-index: -10;
-        top: -3rem;
-        left: 0;
-    }
+
 }
 
-@media screen and (min-width: 750px){
+@media screen and (min-width: 700px){
     .block_mission{
+        margin-top:0;
         &--background{
-            top:-10rem;
-            max-width: 1130px;
+            display: block;
+            position: absolute;
+            width: 100%;
+            z-index: -10;
+            top: -4rem;
+            left: 0; 
         }
         &--united{
             flex-direction: row!important;
             justify-content: center;
             align-items: flex-end;
-            column-gap:2rem;
-            padding-right: 4rem;
-            padding-top: 4rem;
+            column-gap:3%;
+            padding-top: 2rem;
             &-img img{
                 width: 11rem;
             }
@@ -83,35 +81,24 @@
     }
 }
 
-@media screen and (min-width: 900px){
+@media screen and (min-width: 1000px){
     .block_mission--united{
-        vertical-align: bottom;
-        height:40vh;
-        padding-left:10px;
         &-img img{
             width:20rem;
-            margin-bottom:-6rem;
-            
-        }
-        &-text{
-            width:30rem;
+            margin-bottom:-4rem;  
         }
     }
 }
 
 @media screen and (min-width: 1200px){
-    .block_mission{
-        margin-top:0;
-    }
     .block_mission--background{
         top:-8.5rem;
-        left:2rem;
-        max-width: 1200px;
+        left:1rem
     }
     .block_mission--united{
-        height:55vh;
+        margin-left:-5rem;
         &-text p{
-            width:29rem;
+            width:33rem;
             hyphens: auto;
         }
     }
