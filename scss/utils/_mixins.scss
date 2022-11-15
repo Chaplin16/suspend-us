@@ -21,3 +21,9 @@
     outline-style: dashed;
     outline-width: 2px;
 }
+
+@mixin title{
+    color: $dark-blue;
+    font-weight: 300;
+    font-size: 1rem;
+}

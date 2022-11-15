@@ -20,8 +20,7 @@
             width:70%;
             max-width:27rem;
             h3{
-                font-size: 0.9rem;
-                color: $blue;
+                @include title;
                 padding-bottom: 1rem;   
             }
             p{

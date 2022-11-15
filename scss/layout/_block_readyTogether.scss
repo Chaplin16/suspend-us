@@ -9,8 +9,7 @@
         width: 11rem;
     }
     &--text h3{
-        font-size: 0.9rem;
-        color: $dark-blue;
+        @include title;
         margin-bottom: 5px;
     }
 }

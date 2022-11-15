@@ -485,7 +485,7 @@
 }
 .block_presentation--united-gift-text h2 {
   font-size: 1.4rem;
-  color: #005a81;
+  color: #00384c;
   font-weight: 300;
 }
 .block_presentation--united-gift-text h2 img {
@@ -502,7 +502,7 @@
   display: flex;
   justify-content: flex-end;
   padding-right: 1.5rem;
-  column-gap: 5px;
+  column-gap: 10px;
   align-items: flex-start;
   z-index: 10;
 }
@@ -518,21 +518,20 @@
   outline-width: 2px;
 }
 .block_presentation--united-working-text h2 {
-  font-size: 0.8rem;
-  color: #005a81;
+  font-size: 1rem;
+  color: #00384c;
+  font-weight: 300;
+  font-size: 1rem;
 }
 .block_presentation--united-working-text ul {
   list-style: none;
   font-size: 0.7rem;
-  width: 11rem;
+  width: 12rem;
   color: rgb(94, 93, 93);
 }
 .block_presentation--united-working-text ul span {
   color: #005a81;
   font-weight: 600;
-}
-.block_presentation--united-working-text ul li {
-  padding: 2px 0;
 }
 .block_presentation--united-working-text ul li:nth-of-type(3) {
   font-weight: 600;
@@ -736,8 +735,9 @@
   z-index: 10;
 }
 .block_position--search h3 {
-  color: #005a81;
-  font-size: 0.9rem;
+  color: #00384c;
+  font-weight: 300;
+  font-size: 1rem;
 }
 .block_position--search p {
   font-size: 0.7rem;
@@ -846,8 +846,9 @@
   max-width: 27rem;
 }
 .block_mission--united-text h3 {
-  font-size: 0.9rem;
-  color: #005a81;
+  color: #00384c;
+  font-weight: 300;
+  font-size: 1rem;
   padding-bottom: 1rem;
 }
 .block_mission--united-text p {
@@ -940,7 +941,8 @@
   outline-width: 2px;
 }
 .block_shopkeepers--text h3 {
-  font-size: 0.9rem;
+  font-size: 1rem;
+  font-weight: 300;
 }
 .block_shopkeepers--text span {
   font-size: 0.6rem;
@@ -1048,7 +1050,10 @@
   row-gap: 1rem;
 }
 .block_press--text h3 {
-  font-size: 0.9rem;
+  color: #00384c;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #000;
 }
 .block_press--text h3 img {
   width: 11px;
@@ -1176,8 +1181,9 @@
   width: 11rem;
 }
 .block_readyTogether--text h3 {
-  font-size: 0.9rem;
   color: #00384c;
+  font-weight: 300;
+  font-size: 1rem;
   margin-bottom: 5px;
 }
 

@@ -18,8 +18,7 @@
     }
     &--search{
         h3{
-            color: $blue;
-            font-size: 0.9rem;
+            @include title;
         }
         p{
             font-size:0.7rem;
