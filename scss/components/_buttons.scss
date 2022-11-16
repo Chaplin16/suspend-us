@@ -36,12 +36,12 @@
     img{
         position: absolute;
         width:15px;
-        top: 6px;
+        top: 8px;
         left:4px;
     }
     input{
         @include inputBtn;
-        padding: 7px 35px 5px 25px;
+        padding: 7px 60px 5px 20px;
     }
     button{
         @include btnWithInput;
