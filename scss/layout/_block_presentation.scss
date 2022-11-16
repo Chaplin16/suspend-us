@@ -43,6 +43,7 @@
                 height:auto;
                 object-fit: contain;
                 z-index:30;
+                display: inline-block;
                 @include border-blue;
             }
             &-text{
