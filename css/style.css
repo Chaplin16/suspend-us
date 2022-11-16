@@ -585,8 +585,8 @@
   position: absolute;
   top: -2rem;
   left: 0;
-  outline: 1px dashed rgba(1, 181, 98, 0.5);
   border-radius: 50% !important;
+  outline: 1px dashed rgba(1, 181, 98, 0.5);
   outline-offset: 8px;
   outline-style: dashed;
   outline-width: 2px;
@@ -626,8 +626,9 @@
   object-fit: contain;
   z-index: 30;
   display: inline-block;
-  outline: 1px dashed rgba(0, 90, 129, 0.5);
   border-radius: 50% !important;
+  border-radius: 50% !important;
+  outline: 1px dashed rgba(0, 90, 129, 0.5);
   outline-offset: 5px;
   outline-style: dashed;
   outline-width: 2px;
@@ -820,8 +821,8 @@
   width: 11rem;
   height: 11rem;
   z-index: 10;
-  outline: 1px dashed rgba(0, 90, 129, 0.5);
   border-radius: 50% !important;
+  outline: 1px dashed rgba(0, 90, 129, 0.5);
   outline-offset: 5px;
   outline-style: dashed;
   outline-width: 2px;
@@ -917,8 +918,8 @@
 }
 .block_mission--united-img img {
   width: 10rem;
-  outline: 1px dashed rgba(0, 90, 129, 0.5);
   border-radius: 50% !important;
+  outline: 1px dashed rgba(0, 90, 129, 0.5);
   outline-offset: 5px;
   outline-style: dashed;
   outline-width: 2px;
@@ -1006,8 +1007,8 @@
   left: -7rem;
   width: 220%;
   z-index: -10;
-  outline: 1px dashed rgba(1, 181, 98, 0.5);
   border-radius: 50% !important;
+  outline: 1px dashed rgba(1, 181, 98, 0.5);
   outline-offset: 8px;
   outline-style: dashed;
   outline-width: 2px;

@@ -44,6 +44,7 @@
                 object-fit: contain;
                 z-index:30;
                 display: inline-block;
+                border-radius: 50%!important;  
                 @include border-blue;
             }
             &-text{
