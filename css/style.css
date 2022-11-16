@@ -54,10 +54,7 @@
 .block_position--search-button button {
   position: absolute;
   bottom: 0;
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
+  border-radius: 50px;
   background-color: #005a81;
   border: 2px solid #01b562;
   color: #fff;
@@ -125,10 +122,7 @@
 .block_readyTogether--text-button button {
   position: absolute;
   bottom: 0;
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
+  border-radius: 50px;
   background-color: #005a81;
   border: 2px solid #01b562;
   color: #fff;
@@ -586,10 +580,8 @@
   top: -2rem;
   left: 0;
   border-radius: 50% !important;
-  outline: 1px dashed rgba(1, 181, 98, 0.5);
+  outline: 2px dashed rgba(1, 181, 98, 0.5);
   outline-offset: 8px;
-  outline-style: dashed;
-  outline-width: 2px;
 }
 .block_presentation--united {
   display: flex;
@@ -628,10 +620,8 @@
   display: inline-block;
   border-radius: 50% !important;
   border-radius: 50% !important;
-  outline: 1px dashed rgba(0, 90, 129, 0.5);
+  outline: 2px dashed rgba(0, 90, 129, 0.5);
   outline-offset: 5px;
-  outline-style: dashed;
-  outline-width: 2px;
 }
 .block_presentation--united-working-text ul {
   list-style: none;
@@ -822,10 +812,8 @@
   height: 11rem;
   z-index: 10;
   border-radius: 50% !important;
-  outline: 1px dashed rgba(0, 90, 129, 0.5);
+  outline: 2px dashed rgba(0, 90, 129, 0.5);
   outline-offset: 5px;
-  outline-style: dashed;
-  outline-width: 2px;
   outline-offset: 10px;
   z-index: 10;
 }
@@ -919,10 +907,8 @@
 .block_mission--united-img img {
   width: 10rem;
   border-radius: 50% !important;
-  outline: 1px dashed rgba(0, 90, 129, 0.5);
+  outline: 2px dashed rgba(0, 90, 129, 0.5);
   outline-offset: 5px;
-  outline-style: dashed;
-  outline-width: 2px;
 }
 .block_mission--united-text {
   margin: auto;
@@ -1008,10 +994,8 @@
   width: 220%;
   z-index: -10;
   border-radius: 50% !important;
-  outline: 1px dashed rgba(1, 181, 98, 0.5);
+  outline: 2px dashed rgba(1, 181, 98, 0.5);
   outline-offset: 8px;
-  outline-style: dashed;
-  outline-width: 2px;
 }
 .block_shopkeepers--text span {
   font-size: 0.6rem;
