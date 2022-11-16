@@ -5,7 +5,8 @@
     padding-top: 27%;
     row-gap:1rem;
     img{
-        height:auto;
+        height:auto!important;
+        max-height: 20rem;
     }
     &--text{
         display: flex;

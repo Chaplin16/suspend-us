@@ -10,7 +10,7 @@
 @mixin border-green{
     outline: 1px dashed rgba(1, 181, 98, 0.5);;
     outline-offset: 8px;
-    border-radius: 50%;  
+    border-radius: 50%!important;  
     outline-style: dashed;
     outline-width: 2px;
 }
@@ -18,7 +18,7 @@
 @mixin border-blue{
     outline: 1px dashed rgba(0, 90, 129,0.5);
     outline-offset: 5px;
-    border-radius: 50%;
+    border-radius: 50%!important;
     outline-style: dashed;
     outline-width: 2px;
 }
