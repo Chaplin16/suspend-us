@@ -10,15 +10,15 @@
 @mixin border-green{
     -webkit-border-radius: 50%;  
     border-radius: 50%!important; 
-    outline: 2px dashed rgba(1, 181, 98, 0.5);;
-    outline-offset: 8px;
+    border: 2px dashed rgba(0, 90, 129,0.4);
+    padding: 5px;
 }
 
 @mixin border-blue{
     -webkit-border-radius: 50%;
     border-radius: 50%!important; 
-    outline: 2px dashed rgba(0, 90, 129,0.5);
-    outline-offset: 5px;
+    border: 2px dashed rgba(0, 90, 129,0.4);
+    padding: 5px;
 }
 
 @mixin title{

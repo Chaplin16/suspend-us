@@ -12,8 +12,9 @@
         width: 11rem;
         height:11rem;
         z-index:10;
-        @include border-blue;
-        outline-offset: 10px;
+        
+        border: 2px dashed rgba(0, 90, 129,0.5);
+        padding: 5px;
         z-index: 10;
     }
     &--search p{

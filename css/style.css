@@ -581,8 +581,8 @@
   left: 0;
   -webkit-border-radius: 50%;
   border-radius: 50% !important;
-  outline: 2px dashed rgba(1, 181, 98, 0.5);
-  outline-offset: 8px;
+  border: 2px dashed rgba(0, 90, 129, 0.4);
+  padding: 5px;
 }
 .block_presentation--united {
   display: flex;
@@ -622,8 +622,8 @@
   border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50% !important;
-  outline: 2px dashed rgba(0, 90, 129, 0.5);
-  outline-offset: 5px;
+  border: 2px dashed rgba(0, 90, 129, 0.4);
+  padding: 5px;
 }
 .block_presentation--united-working-text ul {
   list-style: none;
@@ -813,11 +813,8 @@
   width: 11rem;
   height: 11rem;
   z-index: 10;
-  -webkit-border-radius: 50%;
-  border-radius: 50% !important;
-  outline: 2px dashed rgba(0, 90, 129, 0.5);
-  outline-offset: 5px;
-  outline-offset: 10px;
+  border: 2px dashed rgba(0, 90, 129, 0.5);
+  padding: 5px;
   z-index: 10;
 }
 .block_position--search p {
@@ -911,8 +908,8 @@
   width: 10rem;
   -webkit-border-radius: 50%;
   border-radius: 50% !important;
-  outline: 2px dashed rgba(0, 90, 129, 0.5);
-  outline-offset: 5px;
+  border: 2px dashed rgba(0, 90, 129, 0.4);
+  padding: 5px;
 }
 .block_mission--united-text {
   margin: auto;
@@ -999,8 +996,8 @@
   z-index: -10;
   -webkit-border-radius: 50%;
   border-radius: 50% !important;
-  outline: 2px dashed rgba(1, 181, 98, 0.5);
-  outline-offset: 8px;
+  border: 2px dashed rgba(0, 90, 129, 0.4);
+  padding: 5px;
 }
 .block_shopkeepers--text span {
   font-size: 0.6rem;
