@@ -582,7 +582,7 @@
   -webkit-border-radius: 50%;
   border-radius: 50% !important;
   border: 2px dashed rgba(0, 90, 129, 0.4);
-  padding: 5px;
+  padding: 8px;
 }
 .block_presentation--united {
   display: flex;
@@ -623,7 +623,7 @@
   -webkit-border-radius: 50%;
   border-radius: 50% !important;
   border: 2px dashed rgba(0, 90, 129, 0.4);
-  padding: 5px;
+  padding: 8px;
 }
 .block_presentation--united-working-text ul {
   list-style: none;
@@ -813,8 +813,8 @@
   width: 11rem;
   height: 11rem;
   z-index: 10;
-  border: 2px dashed rgba(0, 90, 129, 0.5);
-  padding: 5px;
+  border: 2px dashed rgba(0, 90, 129, 0.5) !important;
+  padding: 8px;
   z-index: 10;
 }
 .block_position--search p {
@@ -909,7 +909,7 @@
   -webkit-border-radius: 50%;
   border-radius: 50% !important;
   border: 2px dashed rgba(0, 90, 129, 0.4);
-  padding: 5px;
+  padding: 8px;
 }
 .block_mission--united-text {
   margin: auto;
@@ -976,7 +976,7 @@
 }
 .block_shopkeepers {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   margin-top: 2rem;
 }
 .block_shopkeepers--text {
@@ -997,7 +997,7 @@
   -webkit-border-radius: 50%;
   border-radius: 50% !important;
   border: 2px dashed rgba(0, 90, 129, 0.4);
-  padding: 5px;
+  padding: 8px;
 }
 .block_shopkeepers--text span {
   font-size: 0.6rem;
